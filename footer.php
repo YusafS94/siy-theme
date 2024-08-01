@@ -28,26 +28,26 @@
     </div>
 </footer> -->
 
-<footer class="container p-4 bg-dark text-light">
+<footer class="container p-4 bg-dark text-light mx-auto my-4">
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
-            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1 text-light" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
 
             <!-- Twitter -->
-            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1 text-light" href="#!" role="button"><i class="fab fa-twitter"></i></a>
 
             <!-- Google -->
-            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1 text-light" href="#!" role="button"><i class="fab fa-google"></i></a>
 
             <!-- Instagram -->
-            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1 text-light" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
             <!-- Linkedin -->
-            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1 text-light" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
 
             <!-- Github -->
-            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            <a data-mdb-ripple-init="" class="btn btn-outline btn-floating m-1 text-light" href="#!" role="button"><i class="fab fa-github"></i></a>
           </section>
           <!-- Section: Social media -->
 
@@ -77,7 +77,7 @@
                 <!--Grid column-->
                 <div class="col-auto">
                   <!-- Submit button -->
-                  <button data-mdb-ripple-init="" type="submit" class="btn btn-outline mb-4">
+                  <button data-mdb-ripple-init="" type="submit" class="btn btn-outline mb-4 text-light">
                     Subscribe
                   </button>
                 </div>
@@ -108,37 +108,16 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a class="text-body" href="#!">Link 1</a>
+                    <a class="text-light" href="#!">Link 1</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 2</a>
+                    <a class="text-light" href="#!">Link 2</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 3</a>
+                    <a class="text-light" href="#!">Link 3</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 4</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
-
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a class="text-body" href="#!">Link 1</a>
-                  </li>
-                  <li>
-                    <a class="text-body" href="#!">Link 2</a>
-                  </li>
-                  <li>
-                    <a class="text-body" href="#!">Link 3</a>
-                  </li>
-                  <li>
-                    <a class="text-body" href="#!">Link 4</a>
+                    <a class="text-light" href="#!">Link 4</a>
                   </li>
                 </ul>
               </div>
@@ -150,16 +129,16 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a class="text-body" href="#!">Link 1</a>
+                    <a class="text-light" href="#!">Link 1</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 2</a>
+                    <a class="text-light" href="#!">Link 2</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 3</a>
+                    <a class="text-light" href="#!">Link 3</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 4</a>
+                    <a class="text-light" href="#!">Link 4</a>
                   </li>
                 </ul>
               </div>
@@ -171,16 +150,37 @@
 
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a class="text-body" href="#!">Link 1</a>
+                    <a class="text-light" href="#!">Link 1</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 2</a>
+                    <a class="text-light" href="#!">Link 2</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 3</a>
+                    <a class="text-light" href="#!">Link 3</a>
                   </li>
                   <li>
-                    <a class="text-body" href="#!">Link 4</a>
+                    <a class="text-light" href="#!">Link 4</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a class="text-light" href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a class="text-light" href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a class="text-light" href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a class="text-light" href="#!">Link 4</a>
                   </li>
                 </ul>
               </div>

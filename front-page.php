@@ -4,8 +4,8 @@
 <main role="main">
 
 <section class="hero-section">
-    <div class="container">
-        <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/hero-img.jpg" />
+    <div class="">
+        <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/matteo-paganelli-FhHGPO3aMsU-unsplash.jpg" />
     </div>
 </section>
 
