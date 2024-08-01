@@ -1,0 +1,19 @@
+/* 
+Theme Name: SIY Theme
+Author: Finn Commerford & Stuart Norman
+Description: A WordPress blank theme.
+Version: 1.0
+*/
+
+.hero-img {
+	max-width: 100%;
+	max-height: 100vh;
+}
+.hero-section {
+	background-image: url("./assets/doodle-background.jpg");
+	background-size: cover;
+}
+.placeholder-img {
+	width: 100vw;
+	max-height: 100%;
+}
