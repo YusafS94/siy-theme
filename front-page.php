@@ -26,7 +26,7 @@
             <div class=""><img class="small-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
             <p>More than a club</p>
           </div>
-          <div class="border border-dark">
+          <div class="border border-dark text-center my-2">
             <h3 class="border-bottom border-dark">Our mission</h3>
             <p>We aim to be more than a club but instead a community of skateboarders!</p>
             <p>By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
@@ -109,18 +109,65 @@
       </div>
       <div class="row container mx-auto">
           <div class="col">
-              <h3>Halifax</h3>
               <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
+              <div class="bg-light">
+                <h3 class="border-bottom border-dark">Halifax</h3>
+                <div class="row">
+                  <div class="col border-right border-dark">
+                    <p>A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse)</p>
+                    <p>Weather permitting - Alternative session hosted at Orange Box Skatepark if the session is cancelled.</p>
+                  </div>
+                  <div class="col">
+                    <div class="border-bottom border-dark">1 hour @ £12.50</div>
+                    <div><img class="mid-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
+                  </div>
+                </div>
+              </div>
           </div>
           <div class="col">
-              <h3>Huddersfield</h3>
               <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
-          </div>
-          <div class="col">
-              <h3>Castleford</h3>
-              <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
+              <div class="bg-light">
+                <h3 class="border-bottom border-dark">Elland</h3>
+                <div class="row">
+                  <div class="col border-right border-dark">
+                    <p>A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse)</p>
+                    <p>Weather permitting - Alternative session hosted at Orange Box Skatepark if the session is cancelled.</p>
+                  </div>
+                  <div class="col">
+                    <div class="border-bottom border-dark">1 hour @ £12.50</div>
+                    <div><img class="mid-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
+                  </div>
+                </div>
+              </div>
           </div>
       </div>
+  </section>
+
+
+  <section class="reviews-section">
+    <div class="container bg-light">
+      <h2>Reviews</h2>
+    </div>
+    <div class="container">
+  <div class="row">
+    <div class="col bg-light border border-dark my-2 p-4">
+      <p>"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
+    </div>
+    <div class="col"></div>
+  </div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col bg-light border border-dark my-2 p-4">
+      <p>"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col bg-light border border-dark my-2 p-4">
+      <p>"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
   </section>
 
   <!-- <section>

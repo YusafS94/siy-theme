@@ -10,31 +10,6 @@ body {
 	background-size: fill;
 }
 
-.title-large {
-	font-family: "Luckiest Guy", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 148px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.title-medium {
-	font-family: "Luckiest Guy", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 100px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.title-small {
-	font-family: "Luckiest Guy", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 48px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
 .hero-img {
 	max-width: 100%;
 	/* max-height: 100vh; */
@@ -55,6 +30,40 @@ body {
 .about-star {
 	width: 100px;
 }
+.mid-star {
+	width: 80px;
+}
 .small-star {
 	width: 50px;
+}
+
+.reviews-section {
+	background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
+}
+
+@media screen and (min-width: 1000px) {
+	.title-large {
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 148px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.title-medium {
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 100px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.title-small {
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 48px;
+		text-align: center;
+		text-transform: uppercase;
+	}
 }
