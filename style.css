@@ -7,6 +7,32 @@ Version: 1.0
 
 body {
 	background-image: url("./assets/SIY\ BACKGROUND\ TALL-02.jpg");
+	background-size: fill;
+}
+
+.title-large {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 148px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title-medium {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title-small {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .hero-img {
@@ -20,4 +46,15 @@ body {
 .placeholder-img {
 	width: 100vw;
 	max-height: 100%;
+}
+
+.about-img {
+	max-width: 100%;
+}
+
+.about-star {
+	width: 100px;
+}
+.small-star {
+	width: 50px;
 }
