@@ -5,9 +5,42 @@ Description: A WordPress blank theme.
 Version: 1.0
 */
 
+:root {
+	--main-purple: #5a5aa0;
+}
+
+/* Utilities */
+
+.text-main_purple {
+	color: var(--main-purple);
+}
+.stroke-main_purple {
+	-webkit-text-stroke: 1px var(--main-purple);
+}
+.border-main_purple {
+	border: 1px solid var(--main-purple);
+}
+.opac {
+	background-color: rgb(255, 255, 255, 0.77);
+}
+.rounded-xl {
+	border-radius: 30px;
+}
+
+/* === */
+
 body {
 	background-image: url("./assets/SIY\ BACKGROUND\ TALL-02.jpg");
 	background-size: fill;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--main-purple);
 }
 
 .hero-img {
@@ -22,7 +55,12 @@ body {
 	width: 100vw;
 	max-height: 100%;
 }
-
+.title-bg {
+	background-image: url("./assets/DOODLES NO BACKGROUND.png");
+	background-size: cover;
+	/* background-blend-mode: color-dodge; */
+	/* background-color: rgb(255, 255, 255, 0.1); */
+}
 .about-img {
 	max-width: 100%;
 }
@@ -37,8 +75,13 @@ body {
 	width: 50px;
 }
 
+.card {
+	/* padding: 4px; */
+}
+
 .reviews-section {
 	background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
+	background-size: cover;
 }
 
 @media screen and (min-width: 1000px) {
@@ -46,9 +89,11 @@ body {
 		font-family: "Luckiest Guy", cursive;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 148px;
+		font-size: 128px;
 		text-align: center;
 		text-transform: uppercase;
+		text-shadow: 4px 4px 4px black;
+		/* line-height: 1px; */
 	}
 	.title-medium {
 		font-family: "Luckiest Guy", cursive;
@@ -57,12 +102,30 @@ body {
 		font-size: 100px;
 		text-align: center;
 		text-transform: uppercase;
+		line-height: 80px;
 	}
 	.title-small {
 		font-family: "Luckiest Guy", cursive;
 		font-weight: 400;
 		font-style: normal;
 		font-size: 48px;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 50px;
+	}
+	.title-xs {
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 32px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.title-xxs {
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 28px;
 		text-align: center;
 		text-transform: uppercase;
 	}

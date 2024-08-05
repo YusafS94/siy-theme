@@ -12,29 +12,29 @@
  
 
   <section>
-    <div class="container bg-light">
-      <h1 class="title-large">Skateboarding <br> in Yorkshire</h1>
-      <div class="row container border border-dark mx-auto my-4">
+    <div class="container opac">
+      <div class="title-bg">
+        <h1 class="title-large text-main_purple">Skateboarding <br> in Yorkshire</h1>
+      </div>
+      <div class="row container border border-dark mx-auto">
         <div class="col border-right border-dark">
-          <div>
-            <h2 class="title-medium">Award Winning</h2>
-            <h3 class="title-small">Skateboarding</h3>
-            <h2 class="title-medium">Company</h2>
+          <div class="stroke-main_purple">
+            <h2 class="title-medium text-light">Award Winning</h2>
+            <h3 class="title-small text-light">Skateboarding</h3>
+            <h2 class="title-medium text-light">Company</h2>
           </div>
-          <div class="row border-top border-bottom border-dark">
-            <p>More than a club</p>
-            <div class=""><img class="small-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
-            <p>More than a club</p>
+          <div class="row border-top border-bottom border-dark title-xxs text-main_purple text-nowrap overflow-hidden">
+            <p class="d-inline"> More than a club <img class="small-star mx-4" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">More than a club</p>
           </div>
-          <div class="border border-dark text-center my-2">
-            <h3 class="border-bottom border-dark">Our mission</h3>
+          <div class="border border-dark text-center my-2 bg-light rounded-xl p-4">
+            <h3 class="border-bottom border-dark title-xs">Our mission</h3>
             <p>We aim to be more than a club but instead a community of skateboarders!</p>
             <p>By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
           </div>
         </div>
         <div class="col">
-          <div class="top">
-            <h3 class="border-bottom border-dark">About us</h3>
+          <div class="top bg-light rounded-xl p-4 m-4 border-main_purple ">
+            <h3 class="border-bottom border-dark title-xs">About us</h3>
             <div class="row">
               <div class="col border-right border-dark"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
               <div class="col">
@@ -103,37 +103,37 @@
     
 
 
-  <section>
+  <section class="opac">
       <div class="container bg-light">
         <h2>Pick your location</h2>
       </div>
       <div class="row container mx-auto">
-          <div class="col">
-              <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
-              <div class="bg-light">
-                <h3 class="border-bottom border-dark">Halifax</h3>
+          <div class="col p-0 mr-2">
+              <img alt="" class="hero-img border-main_purple" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
+              <div class="bg-light border-main_purple rounded-top rounded-xl">
+                <h3 class="border-bottom border-dark p-2">Halifax</h3>
                 <div class="row">
-                  <div class="col border-right border-dark">
+                  <div class="col-6 w-75 border-right border-dark">
                     <p>A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse)</p>
                     <p>Weather permitting - Alternative session hosted at Orange Box Skatepark if the session is cancelled.</p>
                   </div>
-                  <div class="col">
+                  <div class="col-6">
                     <div class="border-bottom border-dark">1 hour @ £12.50</div>
                     <div><img class="mid-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
                   </div>
                 </div>
               </div>
           </div>
-          <div class="col">
-              <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
-              <div class="bg-light">
-                <h3 class="border-bottom border-dark">Elland</h3>
+          <div class="col p-0 mr-2">
+              <img alt="" class="hero-img border-main_purple" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
+              <div class="bg-light border-main_purple rounded-top rounded-xl">
+                <h3 class="border-bottom border-dark p-2">Halifax</h3>
                 <div class="row">
-                  <div class="col border-right border-dark">
+                  <div class="col-6 w-75 border-right border-dark">
                     <p>A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse)</p>
                     <p>Weather permitting - Alternative session hosted at Orange Box Skatepark if the session is cancelled.</p>
                   </div>
-                  <div class="col">
+                  <div class="col-6">
                     <div class="border-bottom border-dark">1 hour @ £12.50</div>
                     <div><img class="mid-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
                   </div>
@@ -144,25 +144,25 @@
   </section>
 
 
-  <section class="reviews-section">
+  <section class="reviews-section py-5">
     <div class="container bg-light">
-      <h2>Reviews</h2>
+      <h2 class="title-small">Reviews</h2>
     </div>
     <div class="container">
   <div class="row">
-    <div class="col bg-light border border-dark my-2 p-4">
+    <div class="col bg-light border border-dark my-2 p-4 rounded-xl">
       <p>"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
     </div>
     <div class="col"></div>
   </div>
   <div class="row">
     <div class="col"></div>
-    <div class="col bg-light border border-dark my-2 p-4">
+    <div class="col bg-light border border-dark my-2 p-4 rounded-xl">
       <p>"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
     </div>
   </div>
   <div class="row">
-    <div class="col bg-light border border-dark my-2 p-4">
+    <div class="col bg-light border border-dark my-2 p-4 rounded-xl">
       <p>"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
     </div>
     <div class="col"></div>

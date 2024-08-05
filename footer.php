@@ -28,8 +28,8 @@
     </div>
 </footer> -->
 
-<footer class="container p-4 bg-light mx-auto my-4">
-  <div class="row">
+<footer class="container p-5 opac mx-auto my-4">
+  <div class="row border-main_purple bg-light rounded-xl p-5">
     <div class="col">
       <h3>Join mailing list</h3>
     </div>
