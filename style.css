@@ -26,7 +26,20 @@ Version: 1.0
 .rounded-xl {
 	border-radius: 30px;
 }
-
+.skateboard {
+	background-image: url("./assets/buttons/HOME\ PURPLE\ BUTTON.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+}
+.skateboard:hover {
+	background-image: url("./assets/buttons/HOME\ YELLOW\ BUTTON.png");
+	transform: rotate(-10deg);
+	transition: 0.2s ease-in-out;
+}
+.skateboard:not(:hover) {
+	transition: 0.2s ease-in-out;
+}
 /* === */
 
 body {
@@ -84,7 +97,28 @@ h6 {
 	background-size: cover;
 }
 
-@media screen and (min-width: 1000px) {
+.nav-button {
+	width: 180px;
+	/* height: 70px; */
+}
+.nav-button a {
+	font-size: 22px;
+}
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	...;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	...;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
 	.title-large {
 		font-family: "Luckiest Guy", cursive;
 		font-weight: 400;
@@ -129,4 +163,17 @@ h6 {
 		text-align: center;
 		text-transform: uppercase;
 	}
+	.title-nav {
+		font-family: "Luckiest Guy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 18px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	...;
 }

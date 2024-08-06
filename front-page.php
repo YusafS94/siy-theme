@@ -107,23 +107,27 @@
       <div class="container bg-light">
         <h2>Pick your location</h2>
       </div>
-      <div class="row container mx-auto">
-          <div class="col p-0 mr-2">
+      <div class="row container mx-auto border border-danger">
+        <!-- Card 1 -->
+          <div class="col p-0 mr-2 border border-success">
               <img alt="" class="hero-img border-main_purple" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
               <div class="bg-light border-main_purple rounded-top rounded-xl">
                 <h3 class="border-bottom border-dark p-2">Halifax</h3>
-                <div class="row">
-                  <div class="col-6 w-75 border-right border-dark">
+              
+                <div class="row border p-2">
+                  <div class="col border border-warning">
                     <p>A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse)</p>
                     <p>Weather permitting - Alternative session hosted at Orange Box Skatepark if the session is cancelled.</p>
                   </div>
-                  <div class="col-6">
-                    <div class="border-bottom border-dark">1 hour @ £12.50</div>
-                    <div><img class="mid-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
+                  <div class="col border border-warning">
+                  <div class="border-bottom border-dark">1 hour @ £12.50</div>
+                  <div><img class="mid-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
                   </div>
                 </div>
               </div>
           </div>
+
+          <!-- Card 2 -->
           <div class="col p-0 mr-2">
               <img alt="" class="hero-img border-main_purple" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
               <div class="bg-light border-main_purple rounded-top rounded-xl">
