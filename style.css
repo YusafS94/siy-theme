@@ -105,16 +105,15 @@ h6 {
 	font-size: 22px;
 }
 
-.scroll {
+.scroll-outer {
 	overflow: hidden;
-	width: 150px;
+	width: 100%;
 	display: inline-block;
-	border: 1px solid red;
 	height: 50px;
 	white-space: nowrap;
 }
 
-.scroll-container {
+.scroll-inner {
 	width: 566px;
 	display: flex;
 	flex-wrap: nowrap;
@@ -122,7 +121,7 @@ h6 {
 }
 @keyframes move {
 	to {
-		transform: translateX(-60%);
+		transform: translateX(-50.5%);
 	}
 }
 .scroll-text {
@@ -131,6 +130,19 @@ h6 {
 	padding-left: 0px;
 	border: 1px solid blue;
 	width: 283px;
+}
+
+.carousel-container {
+	/* width: 2000px; */
+	border: 1px solid red;
+	background-color: aqua;
+}
+.custom-card {
+	width: 700px;
+	/* height: 650px; */
+}
+.card-image {
+	max-width: 100%;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
