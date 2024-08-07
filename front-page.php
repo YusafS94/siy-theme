@@ -174,26 +174,14 @@
 </div>
   </section>
 
-  <!-- <section>
-      <h2>About us</h2>
-      <div class="row">
-          <div class="col">
-              <h3>Coaching</h3>
-              <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
-              <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
-          </div>
-          <div class="col">
-              <h3>Events</h3>
-              <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
-              <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
-          </div>
-          <div class="col">
-              <h3>Shop</h3>
-              <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
-              <img alt="" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/Orange_Box.jpg" />
-          </div>
-      </div>
-  </section> -->
+
+<section class="scroll">
+  <div class="scroll-container">
+    <h1 class="scroll-text">Simon Dominic - At Night</h1>
+    <img class="small-star mx-4" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
+    <h1 class="scroll-text">Simon Dominic - At Night</h1>
+  </div>
+</section>
 
 </main>
 

@@ -104,6 +104,35 @@ h6 {
 .nav-button a {
 	font-size: 22px;
 }
+
+.scroll {
+	overflow: hidden;
+	width: 150px;
+	display: inline-block;
+	border: 1px solid red;
+	height: 50px;
+	white-space: nowrap;
+}
+
+.scroll-container {
+	width: 566px;
+	display: flex;
+	flex-wrap: nowrap;
+	animation: move 6s infinite linear; /* set the time to what you want of course */
+}
+@keyframes move {
+	to {
+		transform: translateX(-60%);
+	}
+}
+.scroll-text {
+	font-size: 20px;
+	margin: 0;
+	padding-left: 0px;
+	border: 1px solid blue;
+	width: 283px;
+}
+
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
