@@ -69,6 +69,8 @@ function theme_styles() {
 	 * I've created a main.css in the "css" directory for you, and enqueued below.
 	 */
 	wp_enqueue_style('main_css', get_template_directory_uri() . '/css/main.css');
+	wp_enqueue_style('glide_core', get_template_directory_uri() . '/css/glide.core.css');
+	wp_enqueue_style('glice_theme', get_template_directory_uri() . '/css/glide.theme.css');
 }
 
 // Enqueue JS
@@ -97,8 +99,14 @@ function theme_js() {
 	 */
 	wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', ['jquery'], '', false);
 
-	// Enqueue Swiper JS
-	wp_enqueue_script('swiper_js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js', ['jquery'], '', false);
+	// Enqueue Swiper JS (delete when carousel is working)
+	// wp_enqueue_script('swiper_js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js', ['jquery'], '', false);
+
+	// Glide core
+	wp_enqueue_script('glide_js-core', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.core.min.css', ['jquery'], '', false);
+
+	// Glide optional
+	wp_enqueue_script('glide_js-optional', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.theme.min.css', ['jquery'], '', false);
 }
 
 

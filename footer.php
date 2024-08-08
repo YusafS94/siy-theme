@@ -49,6 +49,15 @@
 
 
 <?php wp_footer();?>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+<script>
+  new Glide('.glide', {
+    type:"slider",
+    perView: 2,
+  }).mount()
+</script>
 </body>
 
 </html>

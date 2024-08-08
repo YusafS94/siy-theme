@@ -1,26 +1,3 @@
-
-<!-- Old navbar -->
-<!-- <nav class="navbar navbar-expand-md navbar-light">
-	<div class="container">
-
-		<a class="site-title" href="<?php bloginfo("wpurl") ?>"><?php bloginfo("name"); ?></a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<a class="site-title" href="/">Home</a>
-		<a class="site-title" href="/booking">Booking</a>
-		<a class="site-title" href="/contact">Contact</a>
-		<a class="" href="/shop">Shop</a>
-
-		<?php nav_menu("header-menu", "navbarNav", "collapse navbar-collapse justify-content-end", "navbar-nav"); ?>
-	</div>
-
-</nav> -->
-
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-light container rounded-pill border-main_purple my-4">
   <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

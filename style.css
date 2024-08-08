@@ -5,6 +5,12 @@ Description: A WordPress blank theme.
 Version: 1.0
 */
 
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
 :root {
 	--main-purple: #5a5aa0;
 }
@@ -135,14 +141,20 @@ h6 {
 .carousel-container {
 	/* width: 2000px; */
 	border: 1px solid red;
-	background-color: aqua;
+	/* background-color: aqua; */
 }
-.custom-card {
+.carousel {
+	/* height: 500px; */
+}
+/* .custom-card {
 	width: 700px;
-	/* height: 650px; */
-}
+	height: 650px;
+} */
 .card-image {
 	max-width: 100%;
+}
+.test-img {
+	width: 300px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)

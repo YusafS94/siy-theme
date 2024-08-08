@@ -9,6 +9,10 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<!-- Required Core Stylesheet -->
+		<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+		<!-- Optional Theme Stylesheet -->
+		<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 	</head>
 
 	<body <?php body_class(get_post_field('post_name', get_the_ID()));?>>
