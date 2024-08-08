@@ -96,6 +96,9 @@ function theme_js() {
 	 * and will be automatically added to the frontend via WP magic.
 	 */
 	wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', ['jquery'], '', false);
+
+	// Enqueue Swiper JS
+	wp_enqueue_script('swiper_js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js', ['jquery'], '', false);
 }
 
 

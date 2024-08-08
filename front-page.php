@@ -107,7 +107,65 @@
   </div> -->
 
     
+  <swiper-container>
+    <swiper-slide>
+      <div class="custom-card border border-danger">
+        <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+        <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Halifax</h3>
+        <div class="row m-0 border border-warning">
+          <div class="col h-100 border border-primary">
+            <p class="">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
+            <p class="">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
+          </div>
+          <div class="w-25">
+            <p class="container text-center border-bottom border-right border-primary w-100">1 hour @ £12.50</p>
+            <img class="mid-star w-100 border-right text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
 
+    <swiper-slide>
+      <div class="custom-card border border-danger">
+        <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+        <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Halifax</h3>
+        <div class="row m-0 border border-warning">
+          <div class="col h-100 border border-primary">
+            <p class="">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
+            <p class="">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
+          </div>
+          <div class="w-25">
+            <p class="container text-center border-bottom border-right border-primary w-100">1 hour @ £12.50</p>
+            <img class="mid-star w-100 border-right text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+
+    <swiper-slide>
+      <div class="custom-card border border-danger">
+        <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+        <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Halifax</h3>
+        <div class="row m-0 border border-warning">
+          <div class="col h-100 border border-primary">
+            <p class="">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
+            <p class="">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
+          </div>
+          <div class="w-25">
+            <p class="container text-center border-bottom border-right border-primary w-100">1 hour @ £12.50</p>
+            <img class="mid-star w-100 border-right text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+
+    
+  </swiper-container>
+  <div class="swiper-pagination text-light bg-dark border border-success w-25 p-4"></div>
+  <br>
+  <div class="swiper-button-prev text-light bg-dark border border-dark w-25 p-4"></div>
+  <br>
+  <div class="swiper-button-next text-light bg-dark border border-danger w-25 p-4"></div>
 
   <section class="container">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
