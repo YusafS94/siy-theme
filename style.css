@@ -5,12 +5,6 @@ Description: A WordPress blank theme.
 Version: 1.0
 */
 
-// Required Core Stylesheet
-@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
-
-// Optional Theme Stylesheet
-@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
-
 :root {
 	--main-purple: #5a5aa0;
 }
@@ -80,6 +74,58 @@ h6 {
 	/* background-blend-mode: color-dodge; */
 	/* background-color: rgb(255, 255, 255, 0.1); */
 }
+.title-large {
+	font-size: 40px;
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px black;
+	/* line-height: 1px; */
+}
+.title-medium {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	/* font-size: 100px; */
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 80px;
+}
+.title-small {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	/* font-size: 48px; */
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.title-xs {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	/* font-size: 32px; */
+	text-align: center;
+	text-transform: uppercase;
+}
+.title-xxs {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	/* font-size: 28px; */
+	text-align: center;
+	text-transform: uppercase;
+}
+.title-nav {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	/* font-size: 18px; */
+	text-align: center;
+	text-transform: uppercase;
+}
 .about-img {
 	max-width: 100%;
 }
@@ -101,14 +147,6 @@ h6 {
 .reviews-section {
 	background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
 	background-size: cover;
-}
-
-.nav-button {
-	width: 180px;
-	/* height: 70px; */
-}
-.nav-button a {
-	font-size: 22px;
 }
 
 .scroll-outer {
@@ -139,17 +177,8 @@ h6 {
 }
 
 .carousel-container {
-	/* width: 2000px; */
 	border: 1px solid red;
-	/* background-color: aqua; */
 }
-.carousel {
-	/* height: 500px; */
-}
-/* .custom-card {
-	width: 700px;
-	height: 650px;
-} */
 .card-image {
 	max-width: 100%;
 }
@@ -162,7 +191,16 @@ h6 {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	...;
+	.nav-button {
+		width: 180px;
+	}
+	.nav-button a {
+		font-size: 22px;
+	}
+
+	.title-large {
+		font-size: 56px;
+	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -172,15 +210,19 @@ h6 {
 
 /* // Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+	.navbar {
+		border-radius: 60px !important;
+	}
+	.nav-button {
+		width: 180px;
+		/* height: 70px; */
+	}
+	.nav-button a {
+		font-size: 22px;
+	}
+
 	.title-large {
-		font-family: "Luckiest Guy", cursive;
-		font-weight: 400;
-		font-style: normal;
 		font-size: 128px;
-		text-align: center;
-		text-transform: uppercase;
-		text-shadow: 4px 4px 4px black;
-		/* line-height: 1px; */
 	}
 	.title-medium {
 		font-family: "Luckiest Guy", cursive;

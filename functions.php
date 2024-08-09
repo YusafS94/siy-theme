@@ -98,6 +98,7 @@ function theme_js() {
 	 * and will be automatically added to the frontend via WP magic.
 	 */
 	wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', ['jquery'], '', false);
+	// wp_enqueue_script_module('module_js', get_theme_file_uri('/js/module.js'));
 
 	// Enqueue Swiper JS (delete when carousel is working)
 	// wp_enqueue_script('swiper_js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js', ['jquery'], '', false);

@@ -56,6 +56,11 @@
   new Glide('.glide', {
     type:"slider",
     perView: 2,
+    breakpoints: {
+      1000: {
+        perView: 1,
+      }
+    }
   }).mount()
 </script>
 </body>
