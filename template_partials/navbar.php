@@ -9,6 +9,9 @@
         <a class="nav-link text-light title-nav" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item skateboard nav-button d-flex justify-content-center align-items-center">
+        <a class="nav-link text-light title-nav" href="/#locations">Locations</a>
+      </li>
+      <li class="nav-item skateboard nav-button d-flex justify-content-center align-items-center">
         <a class="nav-link text-light title-nav" href="/booking">Booking</a>
       </li>
 	    <li class="nav-item skateboard nav-button d-flex justify-content-center align-items-center">

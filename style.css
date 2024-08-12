@@ -9,6 +9,10 @@ Version: 1.0
 	--main-purple: #5a5aa0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Utilities */
 
 .text-main_purple {
@@ -126,6 +130,7 @@ h6 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
 .about-img {
 	max-width: 100%;
 }
@@ -138,6 +143,15 @@ h6 {
 }
 .small-star {
 	width: 50px;
+}
+
+/* Nav */
+
+.nav-button {
+	width: 180px;
+}
+.nav-button a {
+	font-size: 22px;
 }
 
 .card {
@@ -163,6 +177,7 @@ h6 {
 	flex-wrap: nowrap;
 	animation: move 6s infinite linear; /* set the time to what you want of course */
 }
+
 @keyframes move {
 	to {
 		transform: translateX(-50.5%);
@@ -185,19 +200,15 @@ h6 {
 .test-img {
 	width: 300px;
 }
+.book-img {
+	max-width: 100%;
+}
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	.nav-button {
-		width: 180px;
-	}
-	.nav-button a {
-		font-size: 22px;
-	}
-
 	.title-large {
 		font-size: 56px;
 	}

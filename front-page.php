@@ -58,7 +58,7 @@
 
 
 
-  <section class="container">
+  <section id="locations" class="container">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
         <h2 class="">Pick your location</h2>
         <?php include_partial("glider"); ?>
