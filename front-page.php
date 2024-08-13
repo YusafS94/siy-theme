@@ -61,12 +61,12 @@
   <section id="locations" class="container">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
         <h2 class="">Pick your location</h2>
-        <?php include_partial("glider"); ?>
+        <?php include_partial("landing-glider"); ?>
       </div>
   </section>
 
 
-  <section class="reviews-section py-5">
+  <section class="paper-bg py-5">
     <div class="container bg-light">
       <h2 class="title-small">Reviews</h2>
     </div>

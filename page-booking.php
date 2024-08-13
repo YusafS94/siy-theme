@@ -18,6 +18,14 @@
         </div>
     </div>
 
+    
+
+
+    <section class="paper-bg p-4">
+        <div class="container my-4">
+            <?php include_partial("booking-glider"); ?>
+        </div>
+    </section>
 
     <section>
         <div class="container text-center">
@@ -25,6 +33,8 @@
             <h3>Follow us on our socials:</h3>
         </div>
     </section>
+
+    
     
 </main>
 
