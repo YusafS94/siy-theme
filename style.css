@@ -163,39 +163,53 @@ h6 {
 	background-size: cover;
 }
 
-.scroll-outer {
+.booking-card-img {
+	/* height: 200px;
+	width: 100%; */
+}
+
+/* .scroll-outer {
 	overflow: hidden;
 	width: 100%;
 	display: inline-block;
 	height: 50px;
 	white-space: nowrap;
-}
+} */
 
-.scroll-inner {
+/* .scroll-inner {
 	width: 566px;
 	display: flex;
 	flex-wrap: nowrap;
-	animation: move 6s infinite linear; /* set the time to what you want of course */
-}
+	animation: move 6s infinite linear;
+} */
 
-@keyframes move {
+/* @keyframes move {
 	to {
 		transform: translateX(-50.5%);
 	}
-}
-.scroll-text {
+} */
+/* .scroll-text {
 	font-size: 20px;
 	margin: 0;
 	padding-left: 0px;
 	border: 1px solid blue;
 	width: 283px;
-}
+} */
 
 .carousel-container {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .card-image {
 	max-width: 100%;
+}
+.custom-card {
+	border: 5px solid red;
+}
+.card-rounded-container {
+	border: 1px solid var(--main-purple);
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-color: blue;
 }
 .test-img {
 	width: 300px;

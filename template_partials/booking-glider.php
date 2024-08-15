@@ -3,7 +3,7 @@
       <ul class="glide__slides">
         <li class="glide__slide">
             <!-- Card 1 -->
-            <img class="about-img border border-dark" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+            <img class="about-img border border-dark booking-card-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
             <div class="row">
                 <div class="col">
                     <div class="col"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
