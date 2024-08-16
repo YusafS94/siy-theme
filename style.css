@@ -168,33 +168,32 @@ h6 {
 	width: 100%; */
 }
 
-/* .scroll-outer {
+/* Scrolling text */
+.scroll-outer {
 	overflow: hidden;
 	width: 100%;
 	display: inline-block;
 	height: 50px;
 	white-space: nowrap;
-} */
-
-/* .scroll-inner {
+}
+.scroll-inner {
 	width: 566px;
 	display: flex;
 	flex-wrap: nowrap;
 	animation: move 6s infinite linear;
-} */
-
-/* @keyframes move {
-	to {
-		transform: translateX(-50.5%);
-	}
-} */
-/* .scroll-text {
+}
+.scroll-text {
 	font-size: 20px;
 	margin: 0;
 	padding-left: 0px;
 	border: 1px solid blue;
 	width: 283px;
-} */
+}
+@keyframes move {
+	to {
+		transform: translateX(-50.5%);
+	}
+}
 
 .carousel-container {
 	/* border: 1px solid red; */
@@ -203,13 +202,12 @@ h6 {
 	max-width: 100%;
 }
 .custom-card {
-	border: 5px solid red;
-}
-.card-rounded-container {
-	border: 1px solid var(--main-purple);
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
-	background-color: blue;
+	border: 1px solid var(--main-purple);
+}
+.card-rounded-container {
+	/* border: 1px solid var(--main-purple); */
 }
 .test-img {
 	width: 300px;
