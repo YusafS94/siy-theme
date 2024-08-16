@@ -44,6 +44,10 @@ html {
 .skateboard:not(:hover) {
 	transition: 0.2s ease-in-out;
 }
+.paper-bg {
+	background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
+	background-size: cover;
+}
 /* === */
 
 body {
@@ -58,6 +62,62 @@ h4,
 h5,
 h6 {
 	color: var(--main-purple);
+}
+
+/* Nav */
+
+.nav-button {
+	width: 180px;
+}
+.nav-button a {
+	font-size: 22px;
+}
+
+/* =========== Landing Page =========== */
+
+/* Scrolling text */
+.scroll-outer {
+	overflow: hidden;
+	width: 100%;
+	display: inline-block;
+	height: 50px;
+	white-space: nowrap;
+}
+.scroll-inner {
+	width: 566px;
+	display: flex;
+	flex-wrap: nowrap;
+	animation: move 6s infinite linear;
+}
+.scroll-text {
+	font-size: 20px;
+	margin: 0;
+	padding-left: 0px;
+	border: 1px solid blue;
+	width: 283px;
+}
+@keyframes move {
+	to {
+		transform: translateX(-50.5%);
+	}
+}
+
+.carousel-container {
+	/* border: 1px solid red; */
+}
+.card-image {
+	max-width: 100%;
+}
+.custom-card {
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border: 1px solid var(--main-purple);
+}
+.card-rounded-container {
+	/* border: 1px solid var(--main-purple); */
+}
+.test-img {
+	width: 300px;
 }
 
 .hero-img {
@@ -145,73 +205,13 @@ h6 {
 	width: 50px;
 }
 
-/* Nav */
-
-.nav-button {
-	width: 180px;
-}
-.nav-button a {
-	font-size: 22px;
-}
-
-.card {
-	/* padding: 4px; */
-}
-
-.paper-bg {
-	background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
-	background-size: cover;
-}
+/* =========== Booking Page =========== */
 
 .booking-card-img {
 	/* height: 200px;
 	width: 100%; */
 }
 
-/* Scrolling text */
-.scroll-outer {
-	overflow: hidden;
-	width: 100%;
-	display: inline-block;
-	height: 50px;
-	white-space: nowrap;
-}
-.scroll-inner {
-	width: 566px;
-	display: flex;
-	flex-wrap: nowrap;
-	animation: move 6s infinite linear;
-}
-.scroll-text {
-	font-size: 20px;
-	margin: 0;
-	padding-left: 0px;
-	border: 1px solid blue;
-	width: 283px;
-}
-@keyframes move {
-	to {
-		transform: translateX(-50.5%);
-	}
-}
-
-.carousel-container {
-	/* border: 1px solid red; */
-}
-.card-image {
-	max-width: 100%;
-}
-.custom-card {
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;
-	border: 1px solid var(--main-purple);
-}
-.card-rounded-container {
-	/* border: 1px solid var(--main-purple); */
-}
-.test-img {
-	width: 300px;
-}
 .book-img {
 	max-width: 100%;
 }
