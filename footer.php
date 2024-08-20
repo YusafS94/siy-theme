@@ -29,17 +29,17 @@
 </footer> -->
 
 <footer class="container p-5 opac mx-auto my-4">
-  <div class="row border-main_purple bg-light rounded-xl p-5">
-    <div class="col">
-      <h3>Join mailing list</h3>
+  <div class="row border-main_purple bg-light rounded-xl">
+    <div class="col-12 col-lg-4 p-0 align-self-center">
+      <h3 class="p-2 text-center">Join mailing list</h3>
     </div>
-    <div class="col border-left border-right border-dark">
-      <div><h3 class="border-bottom border-dark">Days of skate</h3></div>
-      <div><p>Monday - Saturday</p></div>
+    <div class="col-12 col-lg-4 p-0 border-left border-right border-dark">
+      <div><h3 class="border-bottom border-dark p-2 text-center">Days of skate</h3></div>
+      <div class="d-flex flex-row justify-content-center align-items-center"><p class="">Monday - Saturday</p></div>
     </div>
-    <div class="col">
-      <div><h3 class="border-bottom border-dark">Contact</h3></div>
-      <div>
+    <div class="col-12 col-lg-4 p-0">
+      <div><h3 class="border-bottom border-dark py-2 pr-5 text-right">Contact</h3></div>
+      <div class="d-flex flex-column align-items-end pr-5">
         <p>hardy@skateityourself.com</p>
         <p>(+44)7711085906</p>
       </div>
