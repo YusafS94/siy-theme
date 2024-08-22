@@ -98,7 +98,7 @@ h6 {
 }
 @keyframes move {
 	to {
-		transform: translateX(-50.5%);
+		transform: translateX(-32.5%);
 	}
 }
 
@@ -191,10 +191,10 @@ h6 {
 	text-transform: uppercase;
 }
 
+/* About */
 .about-img {
 	max-width: 100%;
 }
-
 .about-star {
 	width: 100px;
 }
@@ -203,6 +203,10 @@ h6 {
 }
 .small-star {
 	width: 50px;
+}
+
+.bottom {
+	/* margin: 8px; */
 }
 
 /* =========== Booking Page =========== */
@@ -289,9 +293,41 @@ h6 {
 		text-align: center;
 		text-transform: uppercase;
 	}
+	.about-left-col {
+		border-right: 1px solid black;
+	}
+
+	/* Scrolling text */
+	/* .scroll-outer {
+		overflow: hidden;
+		width: 100%;
+		display: inline-block;
+		height: 50px;
+		white-space: nowrap;
+	}
+	.scroll-inner {
+		width: 566px;
+		display: flex;
+		flex-wrap: nowrap;
+		animation: move 6s infinite linear;
+	}
+	.scroll-text {
+		font-size: 20px;
+		margin: 0;
+		padding-left: 0px;
+		border: 1px solid blue;
+		width: 283px;
+	} */
+	@keyframes move {
+		to {
+			transform: translateX(-50.5%);
+		}
+	}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-	...;
+@media screen and (min-width: 1200px) {
+	.about-star-container {
+		border-right: 1px solid black;
+	}
 }
