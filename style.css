@@ -231,8 +231,10 @@ h6 {
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	...;
+@media screen and (min-width: 768px) {
+	.booking-value-prop {
+		border-right: 1px solid black;
+	}
 }
 
 /* // Large devices (desktops, 992px and up) */

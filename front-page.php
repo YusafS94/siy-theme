@@ -14,8 +14,8 @@
       <div class="title-bg">
         <h1 class="title-large text-main_purple">Skateboarding <br> in Yorkshire</h1>
       </div>
-      <div class="row container border border-dark mx-auto">
-        <div class="col about-left-col">
+      <div class="d-flex flex-column flex-lg-row border border-dark mx-auto">
+        <div class="about-left-col">
           <div class="stroke-main_purple">
             <h2 class="title-medium text-light">Award Winning</h2>
             <h3 class="title-small text-light">Skateboarding</h3>
@@ -28,7 +28,7 @@
             <p>By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
           </div>
         </div>
-        <div class="col">
+        <div class="">
           <div class="top bg-light rounded-xl border-main_purple ">
             <h3 class="border-bottom border-dark title-xs m-0">About us</h3>
             <div class="d-flex">
