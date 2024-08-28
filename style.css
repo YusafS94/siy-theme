@@ -232,9 +232,7 @@ h6 {
 
 /* // Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-	.booking-value-prop {
-		border-right: 1px solid black;
-	}
+	/* ... */
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -298,6 +296,15 @@ h6 {
 	.about-left-col {
 		border-right: 1px solid black;
 	}
+
+	.footer-center {
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+
+	/* .booking-value-prop-img {
+		border-right: 1px solid black;
+	} */
 
 	/* Scrolling text */
 	/* .scroll-outer {

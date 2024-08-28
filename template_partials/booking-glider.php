@@ -1,24 +1,6 @@
 <div class="glide container">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
-      <li class="glide__slide">
-            <!-- Card test -->
-          <div class="custom-card bg-light">
-            <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
-            <div class="card-rounded-container">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Halifax</h3>
-              <div class="row m-0">
-                <div class="col h-100 border-right border-primary">
-                  <p class="">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
-                  <p class="">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
-                </div>
-                <div class="w-25">
-                  <p class="container text-center border-bottom border-primary w-100">1 hour @ £12.50</p>
-                  <img class="mid-star w-100 h-50 text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
 
         <li class="glide__slide">
             <!-- Card 1 -->
@@ -28,11 +10,11 @@
                     <div class="col"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
                 </div>
                 <div class="col-8">
-                    <p>45 minutes @ £30.00</p>
-                    <h4>1-1 at the Orange Box</h4>
-                    <p>45 minute private lesson with expert coaches and access to private skatepark open to 1-1 customers (Orange Box Skatepark, HX1 1AF).</p>
+                    <p>All</p>
+                    <h4>View all club packages</h4>
+                    <p>View full range of packages available at the Orange Box (Orange Box Skatepark, HX1 1AF). Open to customers and club members.</p>
                     <p>All equipment provided for free!</p>
-                    <button>Book</button>
+                    <a target="blank" href="https://siybooking.as.me/?appointmentType=category:Orange%20Box" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
@@ -46,10 +28,10 @@
                 </div>
                 <div class="col-8">
                     <p>45 minutes @ £30.00</p>
-                    <h4>1-1 at the Orange Box</h4>
+                    <h4>1-1 private session</h4>
                     <p>45 minute private lesson with expert coaches and access to private skatepark open to 1-1 customers (Orange Box Skatepark, HX1 1AF).</p>
                     <p>All equipment provided for free!</p>
-                    <button>Book</button>
+                    <a target="blank" href="https://siybooking.as.me/PrivateLesson" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
@@ -62,18 +44,18 @@
                     <div class="col"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
                 </div>
                 <div class="col-8">
-                    <p>45 minutes @ £30.00</p>
-                    <h4>1-1 at the Orange Box</h4>
-                    <p>45 minute private lesson with expert coaches and access to private skatepark open to 1-1 customers (Orange Box Skatepark, HX1 1AF).</p>
+                    <p>2 hours @ £3.00</p>
+                    <h4>2 hour public access</h4>
+                    <p>2 hour public access to the skate park (Orange Box Skatepark, HX1 1AF).</p>
                     <p>All equipment provided for free!</p>
-                    <button>Book</button>
+                    <a target="blank" href="https://siybooking.as.me/OrangeBox" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
       </ul>
     </div>
     <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    <button class="glide__arrow glide__arrow--left bg-warning" data-glide-dir="<"><i class="fa fa-arrow-left"></i></button>
+    <button class="glide__arrow glide__arrow--right bg-warning" data-glide-dir=">"><i class="fa fa-arrow-right"></i></button>
   </div>
 </div>

@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 		<!-- Optional Theme Stylesheet -->
 		<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+		<script src="https://kit.fontawesome.com/49f420c203.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body <?php body_class(get_post_field('post_name', get_the_ID()));?>>

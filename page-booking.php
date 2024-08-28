@@ -2,18 +2,15 @@
 
 <main class="main">
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="top bg-light rounded-xl border-main_purple d-flex flex-column flex-md-row">
-                    <div class="booking-value-prop"><img class="book-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt=""></div>
-                    <div class="">
-                        <h3>Free equipment provided at all sessions</h3>
-                        <p>To save your spot and sign up to a lesson weekly <strong>send us a message</strong> or for a 1-1 purchase a package through the link below</p>
-                        <button>View Products/Packages</button>
+                <div class="bg-light rounded-xl border-main_purple d-flex flex-column flex-md-row">
+                    <div class="booking-value-prop-img w-100"><img class="book-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt=""></div>
+                    <div class="w-25 m-auto"><img class="book-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
+                    <div class="w-100">
+                        <h3 class="px-5 pt-3">Free equipment provided at all sessions</h3>
+                        <p class="px-5 pt-3">To save your spot and sign up to a lesson weekly <strong>send us a message</strong> or for a 1-1 purchase a package through the link below</p>
+                        <a href="/" class="btn btn-warning stretched-link rounded-pill mx-5 mt-3 py-2 px-4">View Products/Packages <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
-            </div>
-        </div>
     </div>
 
     
