@@ -29,7 +29,7 @@
 </footer> -->
 
 <footer class="container p-5 opac mx-auto my-4">
-  <div class="row border-main_purple bg-light rounded-xl">
+  <div class="row border-main bg-light rounded-xl">
     <div class="col-12 col-lg-4 p-0 d-flex align-self-center justify-content-center">
       <a href="/" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Join mailing list</a>
     </div>
@@ -51,16 +51,25 @@
 <?php wp_footer();?>
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+<!-- <script type="module" src="<?php get_template_directory_uri() . '/js/module.js' ?>"></script> -->
 
 <script>
   new Glide('.glide', {
     type:"slider",
     perView: 2,
+    peek: {
+    before: 0,
+    after: 200
+  },
     breakpoints: {
       1000: {
         perView: 1,
       }
-    }
+    },
+    peek: {
+      before: 0,
+      after: 0
+  },
   }).mount()
 </script>
 </body>

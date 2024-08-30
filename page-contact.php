@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="container bg-dark text-light mx-auto my-4">
+<div class="container bg-light text-light mx-auto my-4">
   <div class="py-5 text-center">
     <img class="d-block mx-auto mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/siy mouth circular.png" alt="" width="100">
     <h2>Contact us</h2>
@@ -10,7 +10,7 @@
 
   <div class="row">
     <div class="col-md-4 order-md-2 mb-4 text-dark">
-      <h4 class="d-flex justify-content-between align-items-center mb-3 text-light">
+      <h4 class="d-flex justify-content-between align-items-center mb-3 text-dark">
         <span class="">Or drop us a message</span>
         <span class="badge badge-secondary badge-pill">...</span>
       </h4>
@@ -55,14 +55,14 @@
       <form class="needs-validation" novalidate="">
         <div class="row">
           <div class="col-md-6 mb-3">
-            <label for="firstName">First name</label>
+            <label class="text-dark" for="firstName">First name</label>
             <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
             <div class="invalid-feedback">
               Valid first name is required.
             </div>
           </div>
           <div class="col-md-6 mb-3">
-            <label for="lastName">Last name</label>
+            <label class="text-dark" for="lastName">Last name</label>
             <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
             <div class="invalid-feedback">
               Valid last name is required.
@@ -73,7 +73,7 @@
 
         <div class="row">
           <div class="col-md-12 mb-3">
-            <label for="message">Message:</label>
+            <label class="text-dark" for="message">Message:</label>
             <textarea class="form-control" id="message" name="message" rows="4" cols="50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex corrupti necessitatibus exercitationem in est reprehenderit mollitia laboriosam repellendus molestiae.
             </textarea>
           </div>
@@ -87,5 +87,11 @@
 
 </div>
 
+    <section class="paper-bg p-4">
+        <div class="container my-4">
+            <?php // include_partial("glider-test"); ?>
+        </div>
+    </section>
 
+ 
 <?php get_footer(); ?>

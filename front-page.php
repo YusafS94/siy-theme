@@ -5,18 +5,19 @@
 
   <section class="hero-section">
       <div class="">
-          <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/hero-img.jpg" />
+          <!-- <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/hero-img.jpg" /> -->
+          <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/IMAGE-resized.jpg" />
       </div>
   </section>
 
   <section>
     <div class="container opac">
       <div class="title-bg">
-        <h1 class="title-large text-main_purple">Skateboarding <br> in Yorkshire</h1>
+        <h1 class="title-large text-main">Skateboarding <br> in Yorkshire</h1>
       </div>
       <div class="d-flex flex-column flex-lg-row border border-dark mx-auto">
         <div class="about-left-col">
-          <div class="stroke-main_purple">
+          <div class="stroke-main">
             <h2 class="title-medium text-light">Award Winning</h2>
             <h3 class="title-small text-light">Skateboarding</h3>
             <h2 class="title-medium text-light">Company</h2>
@@ -29,7 +30,7 @@
           </div>
         </div>
         <div class="">
-          <div class="top bg-light rounded-xl border-main_purple ">
+          <div class="top bg-light rounded-xl border-main ">
             <h3 class="border-bottom border-dark title-xs m-0">About us</h3>
             <div class="d-flex">
               <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt=""></div>
