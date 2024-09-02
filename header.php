@@ -18,7 +18,6 @@
 
 	<body <?php body_class(get_post_field('post_name', get_the_ID()));?>>
 
-		<header>
+		<header class="paper-bg">
 			<?php include_partial("navbar"); ?>
-
 		</header>

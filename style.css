@@ -32,8 +32,21 @@ html {
 	/* border: 1px solid var(--main-purple); */
 	border: 1px solid var(--main-yellow);
 }
+.border-alt {
+	border: 1px solid var(--main-purple);
+}
+.stroke-alt {
+	-webkit-text-stroke: 1px var(--main-purple);
+}
 .opac {
-	background-color: rgb(255, 255, 255, 0.77);
+	/* background-color: rgb(255, 255, 255, 0.77); */
+	background-color: #5a5aa0c2;
+}
+.bg-main {
+	background-color: var(--main-yellow);
+}
+.bg-alt {
+	background-color: var(--main-purple);
 }
 .rounded-xl {
 	border-radius: 30px;
@@ -56,6 +69,10 @@ html {
 	background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
 	background-size: cover;
 }
+.checker-bg {
+	background-image: url("./assets/dark/checkerboard-2.svg");
+	background-size: cover;
+}
 /* === */
 
 body {
@@ -71,7 +88,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--main-purple);
+	/* color: var(--main-purple); */
+	color: var(--main-yellow);
 }
 
 /* Nav */
@@ -81,6 +99,12 @@ h6 {
 }
 .nav-button a {
 	font-size: 22px;
+}
+.logo-nav-div {
+	width: 50px;
+}
+.logo-nav-img {
+	max-width: 100%;
 }
 
 /* =========== Landing Page =========== */
@@ -142,13 +166,11 @@ h6 {
 	width: 100vw;
 	max-height: 100%;
 }
-.title-bg {
+/* .title-bg {
 	background-image: url("./assets/DOODLES NO BACKGROUND.png");
 	background-size: cover;
-	/* background-blend-mode: color-dodge; */
-	/* background-color: rgb(255, 255, 255, 0.1); */
-}
-.title-large {
+} */
+/* .title-large {
 	font-size: 40px;
 	font-family: "Luckiest Guy", cursive;
 	font-weight: 400;
@@ -156,8 +178,7 @@ h6 {
 	text-align: center;
 	text-transform: uppercase;
 	text-shadow: 4px 4px 4px black;
-	/* line-height: 1px; */
-}
+} */
 .title-medium {
 	font-family: "Luckiest Guy", cursive;
 	font-weight: 400;
