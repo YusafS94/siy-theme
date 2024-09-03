@@ -2,7 +2,7 @@
   <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse d-flex flex-column flex-lg-row justify-content-center" id="navbarTogglerDemo01">
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <div class="logo-nav-div"><img class="logo-nav-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt=""></div>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 w-100 d-flex justify-content-around align-items-center">
       <li class="nav-item active skateboard nav-button d-flex justify-content-center align-items-center">
