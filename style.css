@@ -24,6 +24,10 @@ html {
 	/* color: var(--main-purple); */
 	color: var(--main-yellow);
 }
+.text-alt {
+	/* color: var(--main-purple); */
+	color: var(--main-purple);
+}
 .stroke-main {
 	/* -webkit-text-stroke: 1px var(--main-purple); */
 	-webkit-text-stroke: 1px var(--main-yellow);
@@ -73,6 +77,9 @@ html {
 	background-image: url("./assets/dark/checkerboard-2.svg");
 	background-size: cover;
 }
+.form-control::placeholder {
+	color: var(--main-yellow);
+} 
 /* === */
 
 body {
@@ -169,8 +176,8 @@ h6 {
 /* .title-bg {
 	background-image: url("./assets/DOODLES NO BACKGROUND.png");
 	background-size: cover;
-} */
-/* .title-large {
+}
+.title-large {
 	font-size: 40px;
 	font-family: "Luckiest Guy", cursive;
 	font-weight: 400;
@@ -259,6 +266,14 @@ h6 {
 #custom-right-arrow {
 	right: 0;
 	top: auto;
+}
+
+/* =========== Contact Page =========== */
+
+.contact-title-bg {
+	background-image: url("./assets/Orange_Box.jpg");
+	background-size: cover;
+	padding: 6rem;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)

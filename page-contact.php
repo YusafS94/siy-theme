@@ -1,97 +1,68 @@
 <?php get_header(); ?>
+<main>
 
-
-<div class="container bg-light text-light mx-auto my-4">
-  <div class="py-5 text-center">
-    <img class="d-block mx-auto mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/siy mouth circular.png" alt="" width="100">
-    <h2>Contact us</h2>
-    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil sapiente praesentium tempore pariatur labore ut blanditiis. Deserunt, quas. Accusamus nostrum perspiciatis tenetur officia voluptatibus incidunt blanditiis facilis, quod praesentium minus, nemo neque.</p>
+  <div class="contact-title-bg">
+    <h1 class="title-medium text-main">Get in contact with us</h1>
   </div>
 
-  <div class="row">
-    <div class="col-md-4 order-md-2 mb-4 text-dark">
-      <h4 class="d-flex justify-content-between align-items-center mb-3 text-dark">
-        <span class="">Or drop us a message</span>
-        <span class="badge badge-secondary badge-pill">...</span>
-      </h4>
-      <ul class="list-group mb-3">
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Name</h6>
-            <small class="text-muted">Kierhardy Ansell</small>
-          </div>
-          <span class="text-muted">...</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Email</h6>
-            <small class="text-muted">Email@gmail.com</small>
-          </div>
-          <span class="text-muted">...</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Phone</h6>
-            <small class="text-muted">01924 000111</small>
-          </div>
-          <span class="text-muted">...</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between bg-light">
-          <div class="text-success">
-            <h6 class="my-0">Address</h6>
-            <small>123 Brick Lane</small>
-          </div>
-          <span class="text-success">...</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-          <span>Hours</span>
-          <strong>...</strong>
-        </li>
-      </ul>
-
-    </div>
-    <div class="col-md-8 order-md-1">
-      <h4 class="mb-3">Fill in the form</h4>
-      <form class="needs-validation" novalidate="">
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label class="text-dark" for="firstName">First name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-            <div class="invalid-feedback">
-              Valid first name is required.
+  <div class="container mx-auto my-4">
+    <div class="d-flex flex-column flex-lg-row">
+      <div class="w-100">
+        <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+      </div>
+      <div class="w-100">
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <label class="text-main" for="firstName">Name</label>
+              <input type="text" class="form-control bg-transparent" id="firstName" placeholder="First & Last Name" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <label class="text-main" for="lastName">Email (required)</label>
+              <input type="email" class="form-control bg-transparent" id="email" placeholder="Your email" value="" required="">
+              <div class="invalid-feedback">
+                Valid email is required.
+              </div>
             </div>
           </div>
-          <div class="col-md-6 mb-3">
-            <label class="text-dark" for="lastName">Last name</label>
-            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-            <div class="invalid-feedback">
-              Valid last name is required.
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <label class="text-main" for="message">Message (required)</label>
+              <textarea class="form-control bg-transparent" id="message" name="message">
+              </textarea>
             </div>
           </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-12 mb-3">
-            <label class="text-dark" for="message">Message:</label>
-            <textarea class="form-control" id="message" name="message" rows="4" cols="50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex corrupti necessitatibus exercitationem in est reprehenderit mollitia laboriosam repellendus molestiae.
-            </textarea>
-          </div>
-        </div>
-        
-        <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
-      </form>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   </div>
 
-</div>
+  <div class="container mx-auto my-4 paper-bg">
+    <div class="d-flex flex-column flex-lg-row">
+      <div class="w-100">
+        <div><p class="text-alt">hardy@skateityourself.com <i class="fa fa-envelope"></i></p></div>
+        <div><p class="text-alt">07711085906 <i class="fa fa-phone"></i></p></div>
+        <div><p class="text-alt">1 Blackledge, Halifax </p></div>
+        <div><p class="text-alt">HX1 1AF </p></div>
+      </div>
+      <div class="w-100">
+        <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+      </div>
+    </div>
+  </div>
 
-    <section class="paper-bg p-4">
-        <div class="container my-4">
-            <?php // include_partial("glider-test"); ?>
+  <section>
+        <div class="container text-center contact-title-bg">
+            <h1 class="title-medium text-main">Join on the fun</h1>
+            <h3 class="text-main">Follow us on our socials:</h3>
         </div>
     </section>
 
- 
+  </main>
+
 <?php get_footer(); ?>
