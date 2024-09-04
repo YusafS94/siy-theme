@@ -3,63 +3,63 @@
       <ul class="glide__slides">
         <li class="glide__slide">
             <!-- Card 1 -->
-          <div class="custom-card bg-light">
+          <div class="custom-card bg-yellow">
             <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
             <div class="card-rounded-container">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Halifax</h3>
+              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Halifax</h3>
               <div class="row m-0">
                 <div class="col h-100 border-right border-primary">
-                  <p class="">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
-                  <p class="">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
+                  <p class=" text-purple">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
+                  <p class=" text-purple">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
                 </div>
                 <div class="w-25">
-                  <p class="container text-center border-bottom border-primary w-100">View packages</p>
+                  <p class="container text-center border-bottom border-primary w-100 text-purple">View packages</p>
                   <img class="mid-star w-100 h-50 text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
                 </div>
               </div>
-              <div class="d-flex justify-content-center"><a target="blank" href="/halifax" class="btn btn-warning rounded-pill py-2 px-4">View Page</a></div>
+              <div class="d-flex justify-content-center"><a target="blank" href="/halifax" class="btn btn-light rounded-pill py-2 px-4 text-purple">View Page</a></div>
             </div>
           </div>
         </li>
 
         <li class="glide__slide">
             <!-- Card 2 -->
-          <div class="custom-card bg-light">
+          <div class="custom-card bg-yellow">
             <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
             <div class="card-rounded-container">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Elland</h3>
+              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Elland</h3>
               <div class="row m-0">
                 <div class="col h-100 border-right border-primary">
-                  <p class="">A group skateboard lesson open to all abilities! Hosted at the <strong>(Address TBC)</strong>.</p>
-                  <p class="">Weather permitting - Alternative session hosted at <strong>(Address TBC)</strong> if session is cancelled.</p>
+                  <p class=" text-purple">A group skateboard lesson open to all abilities! Hosted at the <strong>(Address TBC)</strong>.</p>
+                  <p class=" text-purple">Weather permitting - Alternative session hosted at <strong>(Address TBC)</strong> if session is cancelled.</p>
                 </div>
                 <div class="w-25">
-                  <p class="container text-center border-bottom border-primary w-100">View packages</p>
+                  <p class="container text-center border-bottom border-primary w-100 text-purple">View packages</p>
                   <img class="mid-star w-100 h-50 text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
                 </div>
               </div>
-              <div class="d-flex justify-content-center"><a target="blank" href="/elland" class="btn btn-warning rounded-pill py-2 px-4">View Page</a></div>
+              <div class="d-flex justify-content-center"><a target="blank" href="/elland" class="btn btn-light rounded-pill py-2 px-4 text-purple">View Page</a></div>
             </div>
           </div>
         </li>
 
         <li class="glide__slide">
             <!-- Card 3 -->
-          <div class="custom-card bg-light">
+          <div class="custom-card bg-yellow">
             <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
             <div class="card-rounded-container">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left">Castleford</h3>
+              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Castleford</h3>
               <div class="row m-0">
                 <div class="col h-100 border-right border-primary">
-                  <p class="">A group skateboard lesson open to all abilities! Hosted at the <strong>(Address TBC)</strong>.</p>
-                  <p class="">Weather permitting - Alternative session hosted at <strong>(Address TBC)</strong> if session is cancelled.</p>
+                  <p class=" text-purple">A group skateboard lesson open to all abilities! Hosted at the <strong>(Address TBC)</strong>.</p>
+                  <p class=" text-purple">Weather permitting - Alternative session hosted at <strong>(Address TBC)</strong> if session is cancelled.</p>
                 </div>
                 <div class="w-25">
-                  <p class="container text-center border-bottom border-primary w-100">View packages</p>
+                  <p class="container text-center border-bottom border-primary w-100 text-purple">View packages</p>
                   <img class="mid-star w-100 h-50 text-center" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-03.svg" alt="">
                 </div>
               </div>
-              <div class="d-flex justify-content-center"><a target="blank" href="/castleford" class="btn btn-warning rounded-pill py-2 px-4">View Page</a></div>
+              <div class="d-flex justify-content-center"><a target="blank" href="/castleford" class="btn btn-light rounded-pill py-2 px-4 text-purple">View Page</a></div>
             </div>
           </div>
         </li>

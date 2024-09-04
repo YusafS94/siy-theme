@@ -63,20 +63,20 @@
     </div>
     <div class="container">
   <div class="row">
-    <div class="col bg-light border border-dark my-2 p-4 rounded-xl">
-      <p>"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
+    <div class="col bg-yellow border-purple my-2 p-4 rounded-xl">
+      <p class="text-purple">"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
     </div>
     <div class="col"></div>
   </div>
   <div class="row">
     <div class="col"></div>
-    <div class="col bg-light border border-dark my-2 p-4 rounded-xl">
-      <p>"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
+    <div class="col bg-yellow border-purple my-2 p-4 rounded-xl">
+      <p class="text-purple">"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
     </div>
   </div>
   <div class="row">
-    <div class="col bg-light border border-dark my-2 p-4 rounded-xl">
-      <p>"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
+    <div class="col bg-yellow border-purple my-2 p-4 rounded-xl">
+      <p class="text-purple">"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
     </div>
     <div class="col"></div>
   </div>

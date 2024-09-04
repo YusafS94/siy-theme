@@ -18,6 +18,11 @@
 
 	<body <?php body_class(get_post_field('post_name', get_the_ID()));?>>
 
-		<header class="paper-bg">
-			<?php include_partial("navbar"); ?>
+		<header class="header-outer">
+			<div class="d-flex">
+				<img class="nav_header-text-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-siy-text.png" alt="">
+			</div>
+			<div class="paper-bg">
+				<?php include_partial("navbar"); ?>
+			</div>
 		</header>

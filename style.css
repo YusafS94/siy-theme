@@ -28,6 +28,12 @@ html {
 	/* color: var(--main-purple); */
 	color: var(--main-purple);
 }
+.text-purple {
+	color: var(--main-purple);
+}
+.text-yellow {
+	color: var(--main-yellow);
+}
 .stroke-main {
 	/* -webkit-text-stroke: 1px var(--main-purple); */
 	-webkit-text-stroke: 1px var(--main-yellow);
@@ -38,6 +44,12 @@ html {
 }
 .border-alt {
 	border: 1px solid var(--main-purple);
+}
+.border-purple {
+	border: 1px solid var(--main-purple);
+}
+.border-yellow {
+	border: 1px solid var(--main-yellow);
 }
 .stroke-alt {
 	-webkit-text-stroke: 1px var(--main-purple);
@@ -51,6 +63,12 @@ html {
 }
 .bg-alt {
 	background-color: var(--main-purple);
+}
+.bg-purple {
+	background-color: var(--main-purple);
+}
+.bg-yellow {
+	background-color: var(--main-yellow);
 }
 .rounded-xl {
 	border-radius: 30px;
@@ -99,6 +117,13 @@ h6 {
 	color: var(--main-yellow);
 }
 
+.header-outer {
+	box-shadow: 10px 5px 30px rgb(69, 67, 67);
+	/* margin-bottom: 5px; */
+	z-index: 99;
+	position: relative;
+}
+
 /* Nav */
 
 .nav-button {
@@ -113,6 +138,17 @@ h6 {
 .logo-nav-img {
 	max-width: 100%;
 }
+.nav_header-text-img {
+	/* background-image: url("./assets/dark/yellow-siy-text.png");
+	background-size: cover;
+	background-position: 50% 800%;
+	padding-top: 14rem;
+	padding-bottom: 0; */
+	/* border: 1px solid var(--main-yellow); */
+	height: 100px;
+	margin: auto;
+	max-width: 100%;
+}
 
 /* =========== Landing Page =========== */
 
@@ -121,7 +157,7 @@ h6 {
 	overflow: hidden;
 	width: 100%;
 	display: inline-block;
-	height: 50px;
+	/* height: 50px; */
 	white-space: nowrap;
 }
 .scroll-inner {
@@ -132,7 +168,7 @@ h6 {
 }
 .scroll-text {
 	font-size: 20px;
-	margin: 0;
+	/* margin: 0; */
 	padding-left: 0px;
 	border: 1px solid blue;
 	width: 283px;
@@ -190,7 +226,7 @@ h6 {
 	font-family: "Luckiest Guy", cursive;
 	font-weight: 400;
 	font-style: normal;
-	/* font-size: 100px; */
+	font-size: 60px;
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 80px;
@@ -199,7 +235,7 @@ h6 {
 	font-family: "Luckiest Guy", cursive;
 	font-weight: 400;
 	font-style: normal;
-	/* font-size: 48px; */
+	font-size: 40px;
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 50px;
@@ -240,7 +276,9 @@ h6 {
 	width: 80px;
 }
 .small-star {
+	max-width: 100%;
 	width: 50px;
+	max-height: auto;
 }
 
 .bottom {
