@@ -122,6 +122,8 @@ h6 {
 	/* margin-bottom: 5px; */
 	z-index: 99;
 	position: relative;
+	background-image: url("./assets/dark/header-bg.png");
+	background-size: cover;
 }
 
 /* Nav */
@@ -148,6 +150,10 @@ h6 {
 	height: 100px;
 	margin: auto;
 	max-width: 100%;
+}
+
+.social-icons {
+	width: 100px;
 }
 
 /* =========== Landing Page =========== */
@@ -299,11 +305,11 @@ h6 {
 /* Carousel */
 #custom-left-arrow {
 	left: 0;
-	top: auto;
+	/* top: auto; */
 }
 #custom-right-arrow {
 	right: 0;
-	top: auto;
+	/* top: auto; */
 }
 
 /* =========== Contact Page =========== */
