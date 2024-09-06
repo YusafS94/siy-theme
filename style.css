@@ -278,6 +278,12 @@ h6 {
 .about-star {
 	width: 100px;
 }
+.about-card {
+	margin: 8px;
+}
+.our-mission-card {
+	margin: 8px;
+}
 .mid-star {
 	width: 80px;
 }
@@ -442,7 +448,17 @@ h6 {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+	.about-star {
+		width: 100%;
+	}
 	.about-star-container {
 		border-right: 1px solid black;
+		width: 50%;
+	}
+	.about-card {
+		margin: 2rem;
+	}
+	.our-mission-card {
+		margin: 2rem;
 	}
 }

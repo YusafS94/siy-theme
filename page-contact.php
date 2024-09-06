@@ -11,7 +11,7 @@
         <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
       </div>
       <div class="w-100">
-        <form class="needs-validation" novalidate="">
+        <form class="needs-validation mx-1" novalidate="">
           <div class="row">
             <div class="col-12 mb-3">
               <label class="text-main" for="firstName">Name</label>
@@ -42,15 +42,18 @@
     </div>
   </div>
 
-  <div class="container mx-auto my-4 paper-bg">
+  <div class="paper-bg">
     <div class="d-flex flex-column flex-lg-row">
       <div class="w-100">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/SPRAY-PAINT-DOODLE.svg" alt="">
+      </div>
+      <div class="w-100 text-right mx-4 my-5">
         <div><p class="text-alt">hardy@skateityourself.com <i class="fa fa-envelope"></i></p></div>
         <div><p class="text-alt">07711085906 <i class="fa fa-phone"></i></p></div>
         <div><p class="text-alt">1 Blackledge, Halifax </p></div>
         <div><p class="text-alt">HX1 1AF </p></div>
       </div>
-      <div class="w-100">
+      <div class="w-100 my-5">
         <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
       </div>
     </div>

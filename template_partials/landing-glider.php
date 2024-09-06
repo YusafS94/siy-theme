@@ -9,8 +9,8 @@
               <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Halifax</h3>
               <div class="row m-0">
                 <div class="col h-100 border-right border-primary">
-                  <p class=" text-purple">A group skateboard lesson open to all abilities! Hosted at the Wellholme Skatepark. HD6 4AA (Brighouse).</p>
-                  <p class=" text-purple">Weather permitting - Alternative session hosted at Orange Box Skatepark if session is cancelled.</p>
+                  <p class=" text-purple">Visit our private rooftop skatepark in the heart of Halifax.</p>
+                  <p class=" text-purple">Located in the Orange Box @ 1 Blackledge, HX1 1AF.</p>
                 </div>
                 <div class="w-25">
                   <p class="container text-center border-bottom border-primary w-100 text-purple">View packages</p>
@@ -27,11 +27,11 @@
           <div class="custom-card bg-yellow">
             <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
             <div class="card-rounded-container">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Elland</h3>
+              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Huddersfield</h3>
               <div class="row m-0">
                 <div class="col h-100 border-right border-primary">
-                  <p class=" text-purple">A group skateboard lesson open to all abilities! Hosted at the <strong>(Address TBC)</strong>.</p>
-                  <p class=" text-purple">Weather permitting - Alternative session hosted at <strong>(Address TBC)</strong> if session is cancelled.</p>
+                  <p class=" text-purple">Visit our private skatepark located in an old toyshop!</p>
+                  <p class=" text-purple">Find us @ The Piazza Centre, HD1 2RS.</p>
                 </div>
                 <div class="w-25">
                   <p class="container text-center border-bottom border-primary w-100 text-purple">View packages</p>
@@ -51,8 +51,7 @@
               <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-left text-purple">Castleford</h3>
               <div class="row m-0">
                 <div class="col h-100 border-right border-primary">
-                  <p class=" text-purple">A group skateboard lesson open to all abilities! Hosted at the <strong>(Address TBC)</strong>.</p>
-                  <p class=" text-purple">Weather permitting - Alternative session hosted at <strong>(Address TBC)</strong> if session is cancelled.</p>
+                  <p class=" text-purple">coming soon to a Castleford near you.</strong>.</p>
                 </div>
                 <div class="w-25">
                   <p class="container text-center border-bottom border-primary w-100 text-purple">View packages</p>

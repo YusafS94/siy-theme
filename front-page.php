@@ -23,19 +23,20 @@
             <h2 class="title-medium text-main">Company</h2>
           </div>
           <?php include_partial("scrolling-text"); ?>
-          <div class="border-main text-center my-2 bg-alt rounded-xl">
-            <h3 class="border-bottom border-dark title-xs">Our mission</h3>
-            <p>We aim to be more than a club but instead a community of skateboarders!</p>
-            <p>By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
+          <div class="border-main text-center my-2 bg-alt rounded-xl our-mission-card">
+            <h3 class="border-bottom border-dark title-xs py-3">Our mission</h3>
+            <p class="px-4 py-2">We aim to be more than a club but instead a community of skateboarders!</p>
+            <p class="px-4 py-2">By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
           </div>
         </div>
         <div class="">
-          <div class="top bg-alt rounded-xl border-main ">
-            <h3 class="border-bottom border-dark title-xs m-0">About us</h3>
+          <div class="about-card top bg-alt rounded-xl border-main">
+            <h3 class="border-bottom border-dark title-xs m-0 py-3">About us</h3>
             <div class="d-flex">
               <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
               <div class="">
-                <p>We run and operate the Orange Box skatepark <strong>based in the heart of Halifax</strong></p>
+                <p class="px-4 py-2">We run and operate the Orange Box skatepark <strong>based in the heart of Halifax</strong></p>
+                <p class="px-4 py-2">An indoor skatepark based on the roof of the Piece Hall.</p>
               </div>
             </div>
           </div>
@@ -51,15 +52,17 @@
 
   <section id="locations" class="container">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
-        <h2 class="">Pick your location</h2>
+        <div class="rounded-pill border-yellow bg-purple py-2 px-4 mb-3">
+          <h2 class="">Pick a location</h2>
+        </div>
         <?php include_partial("landing-glider"); ?>
       </div>
   </section>
 
 
   <section class="paper-bg py-5">
-    <div class="container bg-light">
-      <h2 class="title-small">Reviews</h2>
+    <div class="container bg-purple border-yellow rounded-pill py-2 px-4 mb-3">
+      <h2 class="title-small m-0">Reviews</h2>
     </div>
     <div class="container">
   <div class="row">
