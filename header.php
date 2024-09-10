@@ -22,7 +22,7 @@
 			<div class="d-flex">
 				<img class="nav_header-text-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-siy-text.png" alt="">
 			</div>
-			<div class="paper-bg">
+			<div class="nav-outer">
 				<?php include_partial("navbar"); ?>
 			</div>
 		</header>

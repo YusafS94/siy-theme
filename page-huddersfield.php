@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 
 <main class="main">
+
+    <div class="booking-title container py-5">
+        <h1 class="title-medium">Select and Skate</h1>
+    </div>
+
     <section class="checker-bg py-5">
         <div class="container">
             <div class="bg-purple rounded-xl border-main d-flex flex-column flex-md-row">
@@ -19,6 +24,9 @@
 
 
     <section id="elland-glider-section" class="paper-bg p-4">
+        <div class="bg-purple text-yellow rounded-pill px-4 container py-2 schedule-title-div">
+            <h4 class="text-uppercase m-0">I would like to <strong>schedule</strong>...</h4>
+        </div>
         <div class="my-4">
             <?php include_partial("elland-booking-glider"); ?>
         </div>

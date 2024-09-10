@@ -1,34 +1,4 @@
-<!--  Old footer -->
-<!-- <footer>
-    <div class="row">
-        <div class="col">
-            <h5>List 1</h5>
-            <ul class="list-unstyled">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h5>List 2</h5>
-            <ul class="list-unstyled">
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Link 5</a></li>
-                <li><a href="#">Link 6</a></li>
-            </ul>
-        </div>
-            <div class="col">
-            <h5>List 3</h5>
-            <ul class="list-unstyled">
-                <li><a href="#">Link 7</a></li>
-                <li><a href="#">Link 8</a></li>
-                <li><a href="#">Link 9</a></li>
-            </ul>
-        </div>
-    </div>
-</footer> -->
-
-<footer class="container p-5 opac mx-auto my-4">
+<footer class="container p-5 opac mx-auto">
   <div class="row border-main bg-purple rounded-xl">
     <div class="col-12 col-lg-4 p-0 d-flex align-self-center justify-content-center">
       <a href="/" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Join mailing list</a>
@@ -57,19 +27,11 @@
   new Glide('.glide', {
     type:"slider",
     perView: 2,
-    peek: {
-    before: 0,
-    after: 200
-  },
     breakpoints: {
       1000: {
         perView: 1,
       }
     },
-    peek: {
-      before: 0,
-      after: 0
-  },
   }).mount()
 </script>
 </body>

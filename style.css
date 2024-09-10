@@ -139,6 +139,7 @@ h6 {
 }
 .logo-nav-img {
 	max-width: 100%;
+	right: auto;
 }
 .nav_header-text-img {
 	/* background-image: url("./assets/dark/yellow-siy-text.png");
@@ -285,7 +286,8 @@ h6 {
 	margin: 8px;
 }
 .mid-star {
-	width: 80px;
+	width: 100%;
+	max-height: 100%;
 }
 .small-star {
 	max-width: 100%;
@@ -295,6 +297,10 @@ h6 {
 
 .bottom {
 	/* margin: 8px; */
+}
+
+.review-div {
+	width: 80%;
 }
 
 /* =========== Booking Page =========== */
@@ -318,12 +324,26 @@ h6 {
 	/* top: auto; */
 }
 
+.booking-title {
+	background-image: url("./assets/Orange_Box.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.booking-arrows-outer {
+	background-image: url("./assets/dark/booking-page-arrows.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.booking-arrow {
+	/* border-top-right-radius: 50%; */
+}
+
 /* =========== Contact Page =========== */
 
 .contact-title-bg {
 	background-image: url("./assets/Orange_Box.jpg");
 	background-size: cover;
-	padding: 6rem;
+	padding: 6rem 0;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
@@ -338,13 +358,16 @@ h6 {
 
 /* // Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-	/* ... */
+	.schedule-title-div {
+		width: 70%;
+	}
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 	.navbar {
 		border-radius: 60px !important;
+		border: 1px solid var(--main-purple);
 	}
 	.nav-button {
 		width: 180px;
@@ -352,6 +375,10 @@ h6 {
 	}
 	.nav-button a {
 		font-size: 22px;
+	}
+	.nav-outer {
+		background-image: url("./assets/PAPER\ TEXTURE\ LARGE.jpg");
+		background-size: cover;
 	}
 
 	.title-large {
@@ -399,6 +426,9 @@ h6 {
 		text-align: center;
 		text-transform: uppercase;
 	}
+	.main-title-div {
+		padding: 8px 0;
+	}
 	.about-left-col {
 		border-right: 1px solid black;
 	}
@@ -443,6 +473,9 @@ h6 {
 		to {
 			transform: translateX(-50.5%);
 		}
+	}
+	.schedule-title-div {
+		width: 50%;
 	}
 }
 

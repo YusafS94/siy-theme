@@ -17,7 +17,7 @@
       </div> -->
       <div class="d-flex flex-column flex-lg-row border-main mx-auto">
         <div class="about-left-col">
-          <div class="stroke-alt text-main">
+          <div class="stroke-alt text-main main-title-div">
             <h2 class="title-medium text-main">Award Winning</h2>
             <h3 class="title-small text-main">Skateboarding</h3>
             <h2 class="title-medium text-main">Company</h2>
@@ -29,7 +29,7 @@
             <p class="px-4 py-2">By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
           </div>
         </div>
-        <div class="">
+        <div class="about-right-col">
           <div class="about-card top bg-alt rounded-xl border-main">
             <h3 class="border-bottom border-dark title-xs m-0 py-3">About us</h3>
             <div class="d-flex">
@@ -61,29 +61,29 @@
 
 
   <section class="paper-bg py-5">
-    <div class="container bg-purple border-yellow rounded-pill py-2 px-4 mb-3">
+    <div class="container bg-purple border-yellow rounded-pill py-2 px-4 mb-3 review-div">
       <h2 class="title-small m-0">Reviews</h2>
     </div>
-    <div class="container">
-  <div class="row">
-    <div class="col bg-yellow border-purple my-2 p-4 rounded-xl">
-      <p class="text-purple">"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
+    <div class="container px-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 bg-yellow border-purple my-2 p-4 rounded-xl">
+          <p class="text-purple">"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-12 col-lg-6 bg-yellow border-purple my-2 p-4 rounded-xl">
+          <p class="text-purple">"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 bg-yellow border-purple my-2 p-4 rounded-xl">
+          <p class="text-purple">"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
+        </div>
+        <div class="col"></div>
+      </div>
     </div>
-    <div class="col"></div>
-  </div>
-  <div class="row">
-    <div class="col"></div>
-    <div class="col bg-yellow border-purple my-2 p-4 rounded-xl">
-      <p class="text-purple">"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col bg-yellow border-purple my-2 p-4 rounded-xl">
-      <p class="text-purple">"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
-    </div>
-    <div class="col"></div>
-  </div>
-</div>
   </section>
 
 </main>
