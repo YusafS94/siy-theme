@@ -29,8 +29,8 @@
             <p class="px-4 py-2">By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
           </div>
         </div>
-        <div class="about-right-col">
-          <div class="about-card top bg-alt rounded-xl border-main">
+        <div class="about-right-col d-flex flex-column">
+          <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main">
             <h3 class="border-bottom border-dark title-xs m-0 py-3">About us</h3>
             <div class="d-flex">
               <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
@@ -40,8 +40,8 @@
               </div>
             </div>
           </div>
-          <div class="bottom m-2">
-            <img class="about-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+          <div class="about-bottom order-1 order-lg-2 m-2">
+            <img class="about-img rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
   <section id="locations" class="container">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
         <div class="rounded-pill border-yellow bg-purple py-2 px-4 mb-3">
-          <h2 class="">Pick a location</h2>
+          <h2 class="title-small">Pick a location</h2>
         </div>
         <?php include_partial("landing-glider"); ?>
       </div>

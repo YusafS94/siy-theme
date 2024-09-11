@@ -12,6 +12,14 @@
         <h1 class="title-medium">Select and Skate</h1>
     </div>
 
+    <div class="booking-arrows-outer container">
+        <picture class="booking-arrows-picture">
+            <source media="(max-width: 992px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/booking-sm.png" />
+            <source media="(min-width: 993px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/booking-lg.png" />
+            <img class="booking-arrows-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/booking-lg.png" alt="" />
+        </picture>
+    </div>
+
     <section class="checker-bg py-5">
         <div class="container">
             <div class="bg-purple rounded-xl border-main d-flex flex-column flex-md-row">

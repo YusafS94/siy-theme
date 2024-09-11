@@ -294,9 +294,11 @@ h6 {
 	width: 50px;
 	max-height: auto;
 }
-
-.bottom {
-	/* margin: 8px; */
+.about-top {
+	/* order: 3; */
+}
+.about-bottom {
+	/* order: 2; */
 }
 
 .review-div {
@@ -330,12 +332,15 @@ h6 {
 	background-repeat: no-repeat;
 }
 .booking-arrows-outer {
-	background-image: url("./assets/dark/booking-page-arrows.png");
+	/* background-image: url("./assets/dark/booking-page-arrows.png");
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 .booking-arrow {
 	/* border-top-right-radius: 50%; */
+}
+.booking-arrows-img {
+	max-width: 100%;
 }
 
 /* =========== Contact Page =========== */
@@ -476,6 +481,12 @@ h6 {
 	}
 	.schedule-title-div {
 		width: 50%;
+	}
+	.about-top {
+		/* order: 2; */
+	}
+	.about-bottom {
+		/* order: 3; */
 	}
 }
 
