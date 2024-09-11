@@ -2,17 +2,11 @@
 
 <main class="main">
 
-    <!-- <div class="booking-arrows-outer border border-dark container mx-auto d-flex justify-content-center">
-        <div class="border border-light px-5 booking-arrow"><p>Text</p></div>
-        <div class="border border-light px-5 booking-arrow"><p>Text</p></div>
-        <div class="border border-light px-5 booking-arrow"><p>Text</p></div>
-    </div> -->
-
     <div class="booking-title container py-5">
         <h1 class="title-medium">Select and Skate</h1>
     </div>
 
-    <div class="booking-arrows-outer container">
+    <div class="booking-arrows-outer container w-75">
         <picture class="booking-arrows-picture">
             <source media="(max-width: 992px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/booking-sm.png" />
             <source media="(min-width: 993px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/booking-lg.png" />
