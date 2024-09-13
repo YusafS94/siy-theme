@@ -8,10 +8,10 @@
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
                     <p class="text-purple">All</p>
-                    <h4 class="text-purple">View all club packages</h4>
+                    <h4 class="text-purple">Skate Clubs</h4>
                     <p class="text-purple">View full range of packages available at the <strong>(Address TBC)</strong>. Open to customers and club members.</p>
                     <p class="text-purple">All equipment provided for free!</p>
-                    <a target="blank" href="https://siybooking.as.me/?appointmentType=category:Orange%20Box" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                    <a target="_blank" href="https://siybooking.as.me/?appointmentType=category:Orange%20Box" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
@@ -25,7 +25,7 @@
                     <h4 class="text-purple">1-1 private session</h4>
                     <p class="text-purple">45 minute private lesson with expert coaches and access to private skatepark open to 1-1 customers <strong>(Address TBC)</strong>.</p>
                     <p class="text-purple">All equipment provided for free!</p>
-                    <a target="blank" href="https://siybooking.as.me/PrivateLesson" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                    <a target="_blank" href="https://siybooking.as.me/PrivateLesson" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
@@ -39,7 +39,7 @@
                     <h4 class="text-purple">2 hour public access</h4>
                     <p class="text-purple">2 hour public access to the skate park <strong>(Address TBC)</strong>.</p>
                     <p class="text-purple">All equipment provided for free!</p>
-                    <a target="blank" href="https://siybooking.as.me/OrangeBox" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                    <a target="_blank" href="https://siybooking.as.me/OrangeBox" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>

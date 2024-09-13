@@ -35,8 +35,8 @@
             <div class="d-flex">
               <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
               <div class="">
-                <p class="px-4 py-2">We run and operate the Orange Box skatepark <strong>based in the heart of Halifax</strong></p>
-                <p class="px-4 py-2">An indoor skatepark based on the roof of the Piece Hall.</p>
+              <p class="px-4 py-2">We are a West Yorkshire based Skateboard company providing <strong> everything skateboarding!</strong></p> 
+              <p class="px-4 py-2">Established in 2016 we have been supporting the local skateboard community ever since.</p>
               </div>
             </div>
           </div>
