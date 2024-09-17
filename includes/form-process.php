@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($fullname) && !empty($email) && !empty($message) && is_email($email)) {
 
         // Email content
-        $to = 'hardy@skateityourself.com';  // Replace with the recipient email
+        $to = 'yusafsaddiq@gmail.com';  // Replace with the recipient email
         $subject = 'New Contact Form Submission';
         $body = "Name: $fullname\n";
         $body .= "Email: $email\n";
@@ -20,6 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Send email using wp_mail
         if (wp_mail($to, $subject, $body, $headers)) {
             echo "Email sent successfully.";
+            echo "<br>";
+            echo "<a href='/contact'>Back to site</a>";
         } else {
             echo "Email sending failed.";
         }
