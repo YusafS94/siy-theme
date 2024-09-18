@@ -11,8 +11,8 @@
 $required_files = [
 	"remove_wp_rubbish", // Removes unwanted/unused functions, etc.
 	"helpers", // Any global "helper" functions for use throughout the site.
-	"bs4navwalker", // A class to change the default wp menu HTML into a Bootstrap 4 nav menu. It won't create the actual navbar though.
-	"form-process" // File for processing the contact form
+	"bs4navwalker" // A class to change the default wp menu HTML into a Bootstrap 4 nav menu. It won't create the actual navbar though.
+	//"form-process" // File for processing the contact form
 ];
 // For each filename, find it in the "includes" directory and load it.
 foreach ($required_files as $file) {
