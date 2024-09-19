@@ -4,7 +4,9 @@
 
         <li class="glide__slide">
             <!-- Card 1 -->
-            <img class="about-img border-purple booking-card-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+            <div class="card-div">
+                <img class="about-img border-purple card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/skate-clubs-card-resized.jpg" alt="">
+             </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
                     <p class="text-purple">All</p>
@@ -18,7 +20,9 @@
 
         <li class="glide__slide">
             <!-- Card 2 -->
-            <img class="about-img border-purple" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+            <div class="card-div">
+                <img class="about-img border-purple card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/private-session-card-resized.jpg" alt="">
+             </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
                     <p class="text-purple">45 minutes @ £30.00</p>
@@ -32,7 +36,9 @@
 
         <li class="glide__slide">
             <!-- Card 3 -->
-            <img class="about-img border-purple" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+            <div class="card-div">
+                <img class="about-img border-purple card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/public-access-card-resized.jpg" alt="">
+             </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
                     <p class="text-purple">2 hours @ £3.00</p>

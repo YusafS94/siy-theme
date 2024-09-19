@@ -190,13 +190,33 @@ h6 {
 .carousel-container {
 	/* border: 1px solid red; */
 }
-.card-image {
-	max-width: 100%;
+/* Ensure the card-div and card-image are fixed sizes */
+.card-div {
+    height: 300px; /* Set a fixed height for the card div */
+    width: 100%; /* Ensure the div takes up the full width */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    overflow: hidden; /* Hide any overflow */
 }
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and fill the div */
+    object-position: center; /* Center the image */
+    max-height: 100%; /* Prevent the image from exceeding the container height */
+}
+
+
 .custom-card {
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 	border: 1px solid var(--main-purple);
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* height: 600px; */
+	/* width: 500px; */
 }
 .card-rounded-container {
 	/* border: 1px solid var(--main-purple); */
@@ -217,6 +237,8 @@ h6 {
 	width: 100vw;
 	max-height: 100%;
 }
+
+
 /* .title-bg {
 	background-image: url("./assets/DOODLES NO BACKGROUND.png");
 	background-size: cover;
@@ -307,11 +329,6 @@ h6 {
 }
 
 /* =========== Booking Page =========== */
-
-.booking-card-img {
-	/* height: 200px;
-	width: 100%; */
-}
 
 .book-img {
 	max-width: 100%;

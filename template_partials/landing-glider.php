@@ -5,8 +5,10 @@
       <li class="glide__slide">
             <!-- Card 1 -->
           <div class="custom-card bg-yellow">
-            <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
-            <div class="card-rounded-container">
+            <div class="card-div w-100 border border-dark">
+              <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/halifax-card-resized.jpg" alt="">
+            </div>
+            <div class="card-rounded-container w-100">
               <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-center text-purple">Halifax</h3>
               <div class="d-flex">
                 <div class="w-100 border-right border-primary px-4">
@@ -25,8 +27,10 @@
         <li class="glide__slide">
             <!-- Card 2 -->
           <div class="custom-card bg-yellow">
-            <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
-            <div class="card-rounded-container">
+            <div class="card-div w-100 border border-dark">
+              <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/huddersfield-card-resized.jpg" alt="">
+            </div>
+            <div class="card-rounded-container w-100">
               <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-center text-purple">Huddersfield</h3>
               <div class="d-flex">
                 <div class="w-100 border-right border-primary px-4">
@@ -45,8 +49,10 @@
         <li class="glide__slide">
             <!-- Card 3 -->
           <div class="custom-card bg-yellow">
-            <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
-            <div class="card-rounded-container">
+            <div class="card-div w-100 border border-dark">
+              <img class="card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/castleford-card-resized.jpg" alt="">
+            </div>
+            <div class="card-rounded-container w-100">
               <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-center text-purple">Castleford</h3>
               <div class="d-flex">
                 <div class="w-100 border-right border-primary px-4">

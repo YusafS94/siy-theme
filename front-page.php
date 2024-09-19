@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="about-bottom order-1 order-lg-2 m-2">
-            <img class="about-img rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/2.jpg" alt="">
+            <img class="about-img rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/home-about-resized.jpg" alt="">
           </div>
         </div>
       </div>

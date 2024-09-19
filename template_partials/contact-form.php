@@ -5,40 +5,43 @@ $emailErrMsg = "";
 $fullname = "";
 $fullnameErrMsg = "";
 
-if(isset($_POST["submit"])){
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Sanitize input data
+    $fullname = sanitize_text_field($_POST['fullname']);
+    $email = sanitize_email($_POST['email']);
+    $message = sanitize_textarea_field($_POST['message']);
 
-  if(empty($_POST["email"])){
-    $validForm = false;
-    $emailErrMsg = "You need to enter an email address";
-  }else{
-    $email = $_POST["email"];
-  }
+    // Validate required fields
+    if (!empty($fullname) && !empty($email) && !empty($message) && is_email($email)) {
 
-  if(empty($_POST["fullname"])){
-    $validForm = false;
-    $fullnameErrMsg = "You need to enter full name";
-  }else{
-    $fullname = $_POST["fullname"];
-  }
+        // Email content
+        $to = 'yusafsaddiq@gmail.com';  // Replace with the recipient email
+        $subject = 'New Contact Form Submission';
+        $body = "Name: $fullname\n";
+        $body .= "Email: $email\n";
+        $body .= "Message:\n$message\n";
+        $headers = array('Content-Type: text/plain; charset=UTF-8');
+
+        // Send email using wp_mail
+        if (wp_mail($to, $subject, $body, $headers)) {
+            echo "Email sent successfully.";
+            // echo "<br>";
+            // echo "<a href='/contact'>Back to site</a>";
+        } else {
+            echo "Email sending failed.";
+        }
+    } else {
+        echo "Please fill in all required fields with valid information.";
+        // echo "<br>";
+        // echo "<a href='/contact'>Back to form</a>";
+    }
 }
 ?>
 
-<?php
-if(isset($_POST["submit"])){
-  if($validForm){
-    //we have passed all the tests so we can display the form data
-    echo "<p> Valid form.</p>";
-    echo "<p> You entered an email address of {$email}.</p>";
-    echo "<p> You entered a fullname of {$fullname}.</p>";
-    echo "</body>";
-    echo "</html>";
-    exit;
-  }
-}
-?>
 
 
-<form class="needs-validation mx-1" novalidate="" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+<form class="needs-validation mx-1" novalidate="" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>" method="POST">
   <div class="row">
     <div class="col-12 mb-3">
       <label class="text-main" for="firstName">Name</label>
