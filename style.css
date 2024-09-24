@@ -167,6 +167,8 @@ h6 {
 	display: inline-block;
 	/* height: 50px; */
 	white-space: nowrap;
+	border-top: 1px solid var(--main-yellow);
+	border-bottom: 1px solid var(--main-yellow);
 }
 .scroll-inner {
 	width: 566px;
@@ -236,6 +238,9 @@ h6 {
 .placeholder-img {
 	width: 100vw;
 	max-height: 100%;
+}
+.title-underlines {
+	border-bottom: 1px solid var(--main-yellow);
 }
 
 
@@ -454,12 +459,12 @@ h6 {
 		padding: 8px 0;
 	}
 	.about-left-col {
-		border-right: 1px solid black;
+		border-right: 1px solid var(--main-yellow);
 	}
 
 	.footer-center {
-		border-left: 1px solid black;
-		border-right: 1px solid black;
+		border-left: 1px solid var(--main-yellow);
+		border-right: 1px solid var(--main-yellow);
 	}
 	#custom-left-arrow {
 		top: 50%;
@@ -469,7 +474,7 @@ h6 {
 	}
 
 	/* .booking-value-prop-img {
-		border-right: 1px solid black;
+		border-right: 1px solid var(--main-yellow);
 	} */
 
 	/* Scrolling text */
@@ -515,7 +520,7 @@ h6 {
 		width: 100%;
 	}
 	.about-star-container {
-		border-right: 1px solid black;
+		border-right: 1px solid var(--main-yellow);
 		width: 50%;
 	}
 	.about-card {

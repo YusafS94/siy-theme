@@ -15,7 +15,7 @@
       <!-- <div class="title-bg">
         <h1 class="title-large text-main">Skateboarding <br> in Yorkshire</h1>
       </div> -->
-      <div class="d-flex flex-column flex-lg-row border-main mx-auto">
+      <div class="d-flex flex-column flex-lg-row border-yellow mx-auto">
         <div class="about-left-col">
           <div class="stroke-alt text-main main-title-div">
             <h2 class="title-medium text-main">Award Winning</h2>
@@ -23,15 +23,15 @@
             <h2 class="title-medium text-main">Company</h2>
           </div>
           <?php include_partial("scrolling-text"); ?>
-          <div class="border-main text-center my-2 bg-alt rounded-xl our-mission-card">
-            <h3 class="border-bottom border-dark title-xs py-3">Our mission</h3>
+          <div class="border-yellow text-center my-2 bg-alt rounded-xl our-mission-card">
+            <h3 class="title-underlines title-xs py-3">Our mission</h3>
             <p class="px-4 py-2">We aim to be more than a club but instead a community of skateboarders!</p>
             <p class="px-4 py-2">By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
           </div>
         </div>
         <div class="about-right-col d-flex flex-column">
           <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main">
-            <h3 class="border-bottom border-dark title-xs m-0 py-3">About us</h3>
+            <h3 class="title-underlines title-xs m-0 py-3">About us</h3>
             <div class="d-flex">
               <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
               <div class="">
