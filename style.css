@@ -9,6 +9,8 @@ Version: 1.0
 	--main-purple: #5a5aa0;
 	--main-yellow: #FFC01B;
 	--main__purple: #5A5AA0;
+	/* --main-warning: #b90606; */
+	--main-warning: red;
 	--light-yellow: #F3D468; -  (yellow 2 in brand guidelines)
 	--deep-blue: #353595; -  (possibly use for text)
 	--white: #FFFFFF;
@@ -34,6 +36,10 @@ html {
 }
 .text-yellow {
 	color: var(--main-yellow);
+}
+.text-warning {
+	color: var(--main-warning)!important;
+	background: #000;
 }
 .stroke-main {
 	/* -webkit-text-stroke: 1px var(--main-purple); */

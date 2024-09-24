@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($fullname) && !empty($email) && !empty($message) && is_email($email)) {
 
         // Email content
-        $to = 'yusafsaddiq@gmail.com';  // Replace with the recipient email
+        $to = 'hardy@skateityourself.com';  // Replace with the recipient email
         $subject = 'New Contact Form Submission';
         $body = "Name: $fullname\n";
         $body .= "Email: $email\n";
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Email sending failed.";
         }
     } else {
-        echo "Please fill in all required fields with valid information.";
+        echo "<p class='text-warning'>Please fill in all required fields with valid information.</p>";
         // echo "<br>";
         // echo "<a href='/contact'>Back to form</a>";
     }
@@ -67,6 +67,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
   </div>
   <hr class="mb-4">
-  <input type="submit" value="Submit the form" name="submit">
-  <button class="btn btn-primary btn-lg btn-block" value="" type="submit">Submit</button>
+  <!-- <input type="submit" value="Submit the form" name="submit"> -->
+  <button class="btn btn-warning btn-lg btn-block" value="" type="submit">Submit</button>
 </form>
