@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 <main>
 
+<!-- <h2><?php the_field('contact_title'); ?></h2> -->
+
   <div class="contact-title-bg">
-    <h1 class="title-medium text-main">Get in contact with us</h1>
+    <h1 class="title-medium text-main"><?php the_field('contact_heading'); ?></h1>
   </div>
 
   <div class="mx-auto checker-bg">

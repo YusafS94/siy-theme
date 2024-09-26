@@ -1,3 +1,9 @@
+<h1><?php the_field('glider_test'); ?></h1>
+<?php 
+$image = get_field('card_1_image');
+?>
+<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+
 <div class="glide container">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
