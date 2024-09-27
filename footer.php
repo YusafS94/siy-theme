@@ -1,7 +1,7 @@
 <footer class="checker-bg p-5 mx-auto">
   <div class="row border-main bg-purple rounded-xl">
     <div class="col-12 col-lg-4 p-0 d-flex align-self-center justify-content-center order-2 order-lg-1">
-      <a href="/" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Join mailing list</a>
+      <a target="_blank" href="http://eepurl.com/g-lYF9" class="btn btn-warning stretched-link rounded-pill py-2 px-4">Join mailing list</a>
     </div>
     <div class="col-12 col-lg-4 p-0 footer-center order-1 order-lg-2">
       <div><h3 class="title-underlines p-2 text-center">Days of skate</h3></div>

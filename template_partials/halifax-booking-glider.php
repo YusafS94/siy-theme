@@ -1,8 +1,9 @@
-<h1><?php the_field('glider_test'); ?></h1>
 <?php 
-$image = get_field('card_1_image');
+$cardImage1 = get_field('halifax_card_1_img');
+$cardImage2 = get_field('halifax_card_2_img');
+$cardImage3 = get_field('halifax_card_3_img');
+$cardImage4 = get_field('halifax_card_4_img');
 ?>
-<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 
 <div class="glide container">
     <div class="glide__track" data-glide-el="track">
@@ -11,15 +12,15 @@ $image = get_field('card_1_image');
         <li class="glide__slide">
             <!-- Card 1 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/skate-clubs-card-resized.jpg" alt="">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage1['url']); ?>" alt="<?php echo esc_attr($cardImage1['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple">All</p>
-                    <h4 class="text-purple">Skate Clubs</h4>
-                    <p class="text-purple">View full range of packages available at the Orange Box (1 Blackledge, HX1 1AF). Open to customers and club members.</p>
-                    <p class="text-purple">All equipment provided for free!</p>
-                    <a target="_blank" href="https://siybooking.as.me/?appointmentType=category:Orange%20Box" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                    <p class="text-purple"><?php the_field('halifax_card_1_pricing'); ?></p>
+                    <h4 class="text-purple"><?php the_field('halifax_card_1_title'); ?></h4>
+                    <p class="text-purple"><?php the_field('halifax_card_1_description_1'); ?></p>
+                    <p class="text-purple"><?php the_field('halifax_card_1_description_2'); ?></p>
+                    <a target="_blank" href="<?php the_field('halifax_card_1_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
@@ -27,15 +28,15 @@ $image = get_field('card_1_image');
         <li class="glide__slide">
             <!-- Card 2 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/private-session-card-resized.jpg" alt="">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage2['url']); ?>" alt="<?php echo esc_attr($cardImage2['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple">45 minutes @ £30.00</p>
-                    <h4 class="text-purple">1-1 private session</h4>
-                    <p class="text-purple">45 minute private lesson with expert coaches and access to private skatepark open to 1-1 customers (1 Blackledge, HX1 1AF).</p>
-                    <p class="text-purple">All equipment provided for free!</p>
-                    <a target="_blank" href="https://siybooking.as.me/PrivateLesson" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                    <p class="text-purple"><?php the_field('halifax_card_2_pricing'); ?></p>
+                    <h4 class="text-purple"><?php the_field('halifax_card_2_title'); ?></h4>
+                    <p class="text-purple"><?php the_field('halifax_card_2_description_1'); ?></p>
+                    <p class="text-purple"><?php the_field('halifax_card_2_description_2'); ?></p>
+                    <a target="_blank" href="<?php the_field('halifax_card_2_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
@@ -43,15 +44,31 @@ $image = get_field('card_1_image');
         <li class="glide__slide">
             <!-- Card 3 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/public-access-card-resized.jpg" alt="">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage3['url']); ?>" alt="<?php echo esc_attr($cardImage3['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple">2 hours @ £3.00</p>
-                    <h4 class="text-purple">2 hour public access</h4>
-                    <p class="text-purple">2 hour public access to the skate park (1 Blackledge, HX1 1AF).</p>
-                    <p class="text-purple">All equipment provided for free!</p>
-                    <a target="_blank" href="https://siybooking.as.me/OrangeBox" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                    <p class="text-purple"><?php the_field('halifax_card_3_pricing'); ?></p>
+                    <h4 class="text-purple"><?php the_field('halifax_card_3_title'); ?></h4>
+                    <p class="text-purple"><?php the_field('halifax_card_3_description_1'); ?></p>
+                    <p class="text-purple"><?php the_field('halifax_card_3_description_2'); ?></p>
+                    <a target="_blank" href="<?php the_field('halifax_card_3_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+                </div>
+            </div>
+        </li>
+
+        <li class="glide__slide">
+            <!-- Card 4 -->
+             <div class="card-div">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage4['url']); ?>" alt="<?php echo esc_attr($cardImage4['alt']); ?>">
+             </div>
+            <div class="">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <p class="text-purple"><?php the_field('halifax_card_4_pricing'); ?></p>
+                    <h4 class="text-purple"><?php the_field('halifax_card_4_title'); ?></h4>
+                    <p class="text-purple"><?php the_field('halifax_card_4_description_1'); ?></p>
+                    <p class="text-purple"><?php the_field('halifax_card_4_description_2'); ?></p>
+                    <a target="_blank" href="<?php the_field('halifax_card_4_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
                 </div>
             </div>
         </li>
