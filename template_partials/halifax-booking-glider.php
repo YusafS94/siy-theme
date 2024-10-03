@@ -1,8 +1,8 @@
 <?php 
-$cardImage1 = get_field('halifax_card_1_img');
-$cardImage2 = get_field('halifax_card_2_img');
-$cardImage3 = get_field('halifax_card_3_img');
-$cardImage4 = get_field('halifax_card_4_img');
+$halifaxCardImage1 = get_field('halifax_card_1_img');
+$halifaxCardImage2 = get_field('halifax_card_2_img');
+$halifaxCardImage3 = get_field('halifax_card_3_img');
+$halifaxCardImage4 = get_field('halifax_card_4_img');
 ?>
 
 <div class="glide container">
@@ -12,7 +12,7 @@ $cardImage4 = get_field('halifax_card_4_img');
         <li class="glide__slide">
             <!-- Card 1 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage1['url']); ?>" alt="<?php echo esc_attr($cardImage1['alt']); ?>">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($halifaxCardImage1['url']); ?>" alt="<?php echo esc_attr($halifaxCardImage1['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
@@ -28,7 +28,7 @@ $cardImage4 = get_field('halifax_card_4_img');
         <li class="glide__slide">
             <!-- Card 2 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage2['url']); ?>" alt="<?php echo esc_attr($cardImage2['alt']); ?>">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($halifaxCardImage2['url']); ?>" alt="<?php echo esc_attr($halifaxCardImage2['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
@@ -44,7 +44,7 @@ $cardImage4 = get_field('halifax_card_4_img');
         <li class="glide__slide">
             <!-- Card 3 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage3['url']); ?>" alt="<?php echo esc_attr($cardImage3['alt']); ?>">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($halifaxCardImage3['url']); ?>" alt="<?php echo esc_attr($halifaxCardImage3['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">
@@ -60,7 +60,7 @@ $cardImage4 = get_field('halifax_card_4_img');
         <li class="glide__slide">
             <!-- Card 4 -->
              <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($cardImage4['url']); ?>" alt="<?php echo esc_attr($cardImage4['alt']); ?>">
+                <img class="about-img border-purple card-image" src="<?php echo esc_url($halifaxCardImage4['url']); ?>" alt="<?php echo esc_attr($halifaxCardImage4['alt']); ?>">
              </div>
             <div class="">
                 <div class="d-flex flex-column align-items-center text-center">

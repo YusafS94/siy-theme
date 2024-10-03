@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-2"><a target="blank" href="/halifax" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page <i class="fa fa-arrow-right"></i></a></div>
+          <div class="d-flex justify-content-center mt-2"><a href="/halifax" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page <i class="fa fa-arrow-right"></i></a></div>
         </li>
 
         <li class="glide__slide">
@@ -43,7 +43,7 @@
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-2"><a target="blank" href="/huddersfield" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page <i class="fa fa-arrow-right"></i></a></div>
+          <div class="d-flex justify-content-center mt-2"><a href="/huddersfield" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page <i class="fa fa-arrow-right"></i></a></div>
         </li>
 
         <li class="glide__slide">
@@ -64,7 +64,7 @@
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-2"><a target="blank" href="/castleford" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page <i class="fa fa-arrow-right"></i></a></div>
+          <div class="d-flex justify-content-center mt-2"><a href="/castleford" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page <i class="fa fa-arrow-right"></i></a></div>
         </li>
       </ul>
     </div>
