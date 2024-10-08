@@ -1,12 +1,14 @@
 <?php get_header();?>
 
+<?php 
+$landingHero = get_field('home_page_hero_image');
+?>
 
 <main role="main">
 
   <section class="hero-section">
       <div class="">
-          <!-- <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/hero-img.jpg" /> -->
-          <img alt="hero" class="hero-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/IMAGE-resized.jpg" />
+          <img class="hero-img" src="<?php echo esc_url($landingHero['url']); ?>" alt="<?php echo esc_attr($landingHero['alt']); ?>">
       </div>
   </section>
 
