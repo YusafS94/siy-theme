@@ -27,8 +27,8 @@ $landingHero = get_field('home_page_hero_image');
           <?php include_partial("scrolling-text"); ?>
           <div class="border-yellow text-center my-2 bg-alt rounded-xl our-mission-card">
             <h3 class="title-underlines title-xs py-3">Our mission</h3>
-            <p class="px-4 py-2">We aim to be more than a club but instead a community of skateboarders!</p>
-            <p class="px-4 py-2">By joining us you'll be introduced to the whole of skateboarding and make new friends along the way!</p>
+            <p class="px-4 py-2"><?php echo get_field('our_mission_paragraph_1'); ?></p>
+            <p class="px-4 py-2"><?php echo get_field('our_mission_paragraph_2'); ?></p>
           </div>
         </div>
         <div class="about-right-col d-flex flex-column">
@@ -37,8 +37,8 @@ $landingHero = get_field('home_page_hero_image');
             <div class="d-flex">
               <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
               <div class="">
-              <p class="px-4 py-2">We are a West Yorkshire based Skateboard company providing <strong> everything skateboarding!</strong></p> 
-              <p class="px-4 py-2">Established in 2016 we have been supporting the local skateboard community ever since.</p>
+              <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_1'); ?></p> 
+              <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_2'); ?></p>
               </div>
             </div>
           </div>
@@ -69,19 +69,19 @@ $landingHero = get_field('home_page_hero_image');
     <div class="container px-5">
       <div class="row">
         <div class="col-12 col-lg-6 bg-yellow border-purple my-2 p-4 rounded-xl">
-          <p class="text-purple">"<strong>Absolutely brilliant</strong> under 7s club on Monday evenings. I can't recommend it enough."</p>
+          <p class="text-purple"><?php echo get_field('review_1'); ?></p>
         </div>
         <div class="col"></div>
       </div>
       <div class="row">
         <div class="col"></div>
         <div class="col-12 col-lg-6 bg-yellow border-purple my-2 p-4 rounded-xl">
-          <p class="text-purple">"Hardy is a legend - the kids all love, <strong>trust</strong> and <strong>respect</strong> him."</p>
+          <p class="text-purple"><?php echo the_field('review_2'); ?></p>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-lg-6 bg-yellow border-purple my-2 p-4 rounded-xl">
-          <p class="text-purple">"My son has been part of the Skate It Yourself community for over 2 years now and has made some <strong>life long friends</strong> in the other kids and the coaches. All the <strong>coaches are amazing</strong>."</p>
+          <p class="text-purple"><?php echo the_field('review_3'); ?></p>
         </div>
         <div class="col"></div>
       </div>
