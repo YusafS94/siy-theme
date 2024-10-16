@@ -10,11 +10,11 @@ $contactAreaImg = get_field('contact_area_image');
 
   <div class="mx-auto checker-bg">
     <div class="opac">
-      <div class="d-flex flex-column flex-lg-row container my-5 rounded-lg border-yellow">
-        <div class="w-100">
-          <img class="w-100" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/contact-form-img-resized.jpg" alt="">
+      <div class="d-flex flex-column flex-lg-row container my-5 p-0 rounded-lg border-yellow">
+        <div class="w-100 form-img-container">
+          <img class="w-100 form-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/contact-form-img-resized.jpg" alt="">
         </div>
-        <div class="w-100">
+        <div class="w-100 px-4 py-2">
         <?php include_partial("contact-form"); ?>
         </div>
       </div>

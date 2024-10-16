@@ -16,7 +16,7 @@
 		<script src="https://kit.fontawesome.com/49f420c203.js" crossorigin="anonymous"></script>
 	</head>
 
-	<body <?php body_class(get_post_field('post_name', get_the_ID()));?>>
+	<body style="background-image: url(<?php the_field('site_background_image'); ?>);" <?php body_class(get_post_field('post_name', get_the_ID()));?>>
 
 		<header class="header-outer">
 			<div class="d-flex">

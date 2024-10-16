@@ -35,7 +35,7 @@ $landingHero = get_field('home_page_hero_image');
           <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main">
             <h3 class="title-underlines title-xs m-0 py-3">About us</h3>
             <div class="d-flex">
-              <div class="about-star-container"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
+              <div class="about-star-container d-flex"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
               <div class="">
               <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_1'); ?></p> 
               <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_2'); ?></p>
@@ -55,7 +55,7 @@ $landingHero = get_field('home_page_hero_image');
   <section id="locations" class="container">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
         <div class="rounded-pill border-yellow bg-purple py-2 px-4 mb-3">
-          <h2 class="title-small">Pick a location</h2>
+          <h2 class="">Pick a location:</h2>
         </div>
         <?php include_partial("landing-glider"); ?>
       </div>

@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <textarea class="form-control bg-transparent text-light" id="message" name="message"></textarea>
     </div>
   </div>
-  <hr class="mb-4">
+  <!-- <hr class="mb-4"> -->
   <!-- <input type="submit" value="Submit the form" name="submit"> -->
   <button class="btn btn-warning btn-lg btn-block" value="" type="submit">Submit</button>
 </form>
