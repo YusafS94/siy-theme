@@ -8,7 +8,7 @@ $contactAreaImg = get_field('contact_area_image');
     <h1 class="title-medium text-main">Get in contact with us!</h1>
   </div>
 
-  <div class="mx-auto checker-bg">
+  <section class="mx-auto checker-bg centre-img">
     <div class="opac">
       <div class="d-flex flex-column flex-lg-row container my-5 p-0 rounded-lg border-yellow">
         <div class="w-100 form-img-container">
@@ -19,7 +19,7 @@ $contactAreaImg = get_field('contact_area_image');
         </div>
       </div>
     </div>
-  </div>
+</section>
 
   <div class="paper-bg">
     <div class="d-flex flex-column flex-lg-row">

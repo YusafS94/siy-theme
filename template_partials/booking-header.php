@@ -2,7 +2,7 @@
         <h1 class="title-medium">Select and Skate</h1>
     </div>
 
-    <section class="checker-bg">
+    <section class="checker-bg centre-img">
         <div class="opac py-5">
             <div class="booking-arrows-outer container w-50">
                 <picture class="booking-arrows-picture">

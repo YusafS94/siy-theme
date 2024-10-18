@@ -102,12 +102,14 @@ html {
 	background-size: cover;
 }
 .checker-bg {
-	background-image: url("./assets/dark/checkerboard-2.svg");
-	background-size: cover;
+	background-image: url("./assets/dark/checkerboard-1.png");
 }
 .yellow-doodles-bg {
 	background-image: url("./assets/dark/yellow-doodles.png");
 	background-size: cover;
+}
+.centre-img {
+	background-position: 50% 50%;
 }
 .glide__arrow:hover {
 	border-color: var(--main-purple) !important;
@@ -258,16 +260,16 @@ h6 {
 /* .title-bg {
 	background-image: url("./assets/DOODLES NO BACKGROUND.png");
 	background-size: cover;
-}
-.title-large {
-	font-size: 40px;
-	font-family: "Luckiest Guy", cursive;
-	font-weight: 400;
-	font-style: normal;
-	text-align: center;
-	text-transform: uppercase;
-	text-shadow: 4px 4px 4px black;
 } */
+.title-large {
+	font-size: 57px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+} 
 .title-medium {
 	font-family: "Luckiest Guy", cursive;
 	font-weight: 400;
@@ -276,6 +278,15 @@ h6 {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 80px;
+}
+.title-alt {
+	font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 24px;
 }
 .title-small {
 	font-family: "Luckiest Guy", cursive;
@@ -441,6 +452,14 @@ h6 {
 	.schedule-title-div {
 		width: 70%;
 	}
+	.title-large {
+		font-size: 80px;
+        line-height: normal;
+	} 
+	.title-alt {
+		font-size: 66px;
+		line-height: normal;
+	}
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -466,6 +485,7 @@ h6 {
 
 	.title-large {
 		font-size: 128px;
+        line-height: 137px;
 	}
 	.title-medium {
 		font-family: "Luckiest Guy", cursive;
@@ -475,6 +495,10 @@ h6 {
 		text-align: center;
 		text-transform: uppercase;
 		line-height: 80px;
+	}
+	.title-alt {
+		font-size: 66px;
+		line-height: normal;
 	}
 	.title-small {
 		font-family: "Luckiest Guy", cursive;

@@ -12,37 +12,37 @@ $landingHero = get_field('home_page_hero_image');
       </div>
   </section>
 
-  <section class="checker-bg">
-    <div class="container opac">
+  <section class="centre-img checker-bg">
+    <div class="container opac p-4">
       <!-- <div class="title-bg">
         <h1 class="title-large text-main">Skateboarding <br> in Yorkshire</h1>
       </div> -->
       <div class="d-flex flex-column flex-lg-row border-yellow mx-auto">
         <div class="about-left-col">
           <div class="stroke-alt text-main main-title-div">
-            <h2 class="title-medium text-main">Award Winning</h2>
-            <h3 class="title-small text-main">Skateboarding</h3>
-            <h2 class="title-medium text-main">Company</h2>
+            <h2 class="title-large text-main">Award Winning</h2>
+            <h3 class="title-alt text-main">Skateboarding</h3>
+            <h2 class="title-large text-main">Company</h2>
           </div>
           <?php include_partial("scrolling-text"); ?>
-          <div class="border-yellow text-center my-2 bg-alt rounded-xl our-mission-card">
+          <div class="border-yellow text-center m-4 bg-alt rounded-xl our-mission-card">
             <h3 class="title-underlines title-xs py-3">Our mission</h3>
             <p class="px-4 py-2"><?php echo get_field('our_mission_paragraph_1'); ?></p>
             <p class="px-4 py-2"><?php echo get_field('our_mission_paragraph_2'); ?></p>
           </div>
         </div>
         <div class="about-right-col d-flex flex-column">
-          <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main">
+          <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main m-4">
             <h3 class="title-underlines title-xs m-0 py-3">About us</h3>
-            <div class="d-flex">
-              <div class="about-star-container d-flex"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
-              <div class="">
-              <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_1'); ?></p> 
-              <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_2'); ?></p>
+            <div class="d-flex flex-column flex-md-row">
+              <div class="about-star-container d-flex justify-content-center"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
+              <div class="d-flex flex-column text-center">
+                <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_1'); ?></p> 
+                <p class="px-4 py-2"><?php echo get_field('about_us_paragraph_2'); ?></p>
               </div>
             </div>
           </div>
-          <div class="about-bottom order-1 order-lg-2 m-2">
+          <div class="about-bottom order-1 order-lg-2 p-4">
             <img class="about-img rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/home-about-resized.jpg" alt="">
           </div>
         </div>
