@@ -2,7 +2,7 @@
   <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="logo-nav-div"><img class="logo-nav-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt=""></div>
+  <div class="logo-nav-div"><img class="logo-nav-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo-resized.png" alt=""></div>
   <div style="visibility: hidden;" class="logo-nav-div"><img class="logo-nav-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt=""></div>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 w-100 d-flex justify-content-end align-items-center">

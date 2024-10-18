@@ -19,6 +19,7 @@
 
 
 <?php wp_footer();?>
+
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 <!-- <script type="module" src="<?php get_template_directory_uri() . '/js/module.js' ?>"></script> -->

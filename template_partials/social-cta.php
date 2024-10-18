@@ -1,4 +1,10 @@
-<section class="border-yellow checker-bg">
+<?php
+$socialBg = the_field('join_in_socials_bg_img');
+?>
+<section style="background-image: url(<?php echo esc_url($socialBg['url']); ?>);"></section>
+
+
+<section class="border-yellow yellow-doodles-bg">
         <div class="py-5 text-center opac">
             <h1 class="title-medium text-yellow">Join in on the fun</h1>
             <h3 class="text-yellow">Follow us on our socials:</h3>

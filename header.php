@@ -15,8 +15,11 @@
 		<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 		<script src="https://kit.fontawesome.com/49f420c203.js" crossorigin="anonymous"></script>
 	</head>
-
-	<body style="background-image: url(<?php the_field('site_background_image'); ?>);" <?php body_class(get_post_field('post_name', get_the_ID()));?>>
+	<?php
+		// $bg_img = get_field('site_background_image');
+	?>
+	<!-- <body style="background-image: url(<?php echo esc_url($bg_img['url']); ?>);"> -->
+	<body <?php body_class(get_post_field('post_name', get_the_ID()));?>>
 
 		<header class="header-outer">
 			<div class="d-flex">

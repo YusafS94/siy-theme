@@ -118,3 +118,7 @@ function disable_emojis_remove_dns_prefetch($urls, $relation_type) {
 	}
 	return $urls;
 }
+/**
+ * Disable WP Admin Bar front end
+ */
+add_filter('show_admin_bar', '__return_false');
