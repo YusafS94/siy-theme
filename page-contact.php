@@ -9,9 +9,9 @@ $contactAreaImg = get_field('contact_area_image');
   </div>
 
   <section class="mx-auto checker-bg centre-img">
-    <div class="opac">
-      <div class="d-flex flex-column flex-lg-row container my-5 p-0 rounded-lg border-yellow">
-        <div class="w-100 form-img-container">
+    <div class="opac py-5">
+      <div class="d-flex flex-column flex-lg-row container p-0 rounded-xl bg-purple border-yellow form-inner-section">
+        <div class="w-100 form-img-container p-3 p-lg-0">
           <img class="w-100 form-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/contact-form-img-resized.jpg" alt="">
         </div>
         <div class="w-100 px-4 py-2">

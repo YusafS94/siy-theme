@@ -2,6 +2,7 @@
 
 <?php 
 $landingHero = get_field('home_page_hero_image');
+$landingAboutImg = get_field('home_page_about_img');
 ?>
 
 <main role="main">
@@ -20,9 +21,9 @@ $landingHero = get_field('home_page_hero_image');
       <div class="d-flex flex-column flex-lg-row border-yellow mx-auto">
         <div class="about-left-col">
           <div class="stroke-alt text-main main-title-div">
-            <h2 class="title-large text-main">Award Winning</h2>
-            <h3 class="title-alt text-main">Skateboarding</h3>
-            <h2 class="title-large text-main">Company</h2>
+            <h2 class="title-large text-main outline-purple">Award Winning</h2>
+            <h3 class="title-alt text-main outline-purple">Skateboarding</h3>
+            <h2 class="title-large text-main outline-purple">Company</h2>
           </div>
           <?php include_partial("scrolling-text"); ?>
           <div class="border-yellow text-center m-4 bg-alt rounded-xl our-mission-card">
@@ -32,8 +33,8 @@ $landingHero = get_field('home_page_hero_image');
           </div>
         </div>
         <div class="about-right-col d-flex flex-column">
-          <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main m-4">
-            <h3 class="title-underlines title-xs m-0 py-3">About us</h3>
+          <div class="about-card about-top order-2 order-lg-1 bg-alt rounded-xl border-main ml-4 mr-4 mt-4 mb-4 mb-lg-0">
+            <h3 class="title-underlines title-xs-alt m-0 py-3">About us</h3>
             <div class="d-flex flex-column flex-md-row">
               <div class="about-star-container d-flex justify-content-center"><img class="about-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/yellow-star.svg" alt=""></div>
               <div class="d-flex flex-column text-center">
@@ -43,7 +44,7 @@ $landingHero = get_field('home_page_hero_image');
             </div>
           </div>
           <div class="about-bottom order-1 order-lg-2 p-4">
-            <img class="about-img rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dark/home-about-resized.jpg" alt="">
+            <img class="about-img rounded-lg" src="<?php echo esc_url($landingAboutImg['url']); ?>" alt="<?php echo esc_attr($landingAboutImg['alt']); ?>">
           </div>
         </div>
       </div>

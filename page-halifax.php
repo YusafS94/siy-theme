@@ -2,13 +2,19 @@
 
 <main class="main">
 
+    <div class="booking-title booking-title-halifax">
+        <h1 class="title-medium outline-purple">Halifax</h1>
+        <h2 class="title-small outline-purple">Select and Skate</h2>
+    </div>
     <?php include_partial("booking-header"); ?>
 
-    <section id="halifax-glider-section" class="paper-bg p-4">
-        <div class="bg-purple text-yellow rounded-pill px-4 container py-2 schedule-title-div">
-            <h4 class="text-uppercase m-0">I would like to <strong>schedule</strong>...</h4>
+    <section id="halifax-glider-section" class="paper-bg">
+        <div class="container pt-3">
+          <div class="rounded-pill bg-purple border-yellow text-center form-header-outer d-inline-block my-2">
+            <h4 class="text-uppercase font-weight-bold form-header">I would like to schedule...</h4>
+          </div>
         </div>
-        <div class="my-4">
+        <div class="">
             <?php include_partial("halifax-booking-glider"); ?>
         </div>
     </section>

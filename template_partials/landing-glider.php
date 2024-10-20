@@ -14,7 +14,7 @@ $landingCardImage3 = get_field('landing_card_3_img');
               <img class="card-image" src="<?php echo esc_url($landingCardImage1['url']); ?>" alt="<?php echo esc_attr($landingCardImage1['alt']); ?>">
             </div>
             <div class="card-rounded-container w-100">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-center text-purple">Halifax</h3>
+              <h3 class="container border-bottom border-primary p-2 pl-4 m-0 text-uppercase text-start text-purple">Halifax</h3>
               <div class="d-flex">
                 <div class="w-100 border-right border-primary px-4">
                   <p class="text-purple"><?php the_field('landing_card_1_description_1'); ?></p>
@@ -36,7 +36,7 @@ $landingCardImage3 = get_field('landing_card_3_img');
             <img class="card-image" src="<?php echo esc_url($landingCardImage2['url']); ?>" alt="<?php echo esc_attr($landingCardImage2['alt']); ?>">
             </div>
             <div class="card-rounded-container w-100">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-center text-purple">Huddersfield</h3>
+              <h3 class="container border-bottom border-primary p-2 pl-4 m-0 text-uppercase text-start text-purple">Huddersfield</h3>
               <div class="d-flex">
                 <div class="w-100 border-right border-primary px-4">
                   <p class="text-purple"><?php the_field('landing_card_2_description_1'); ?></p>
@@ -58,7 +58,7 @@ $landingCardImage3 = get_field('landing_card_3_img');
             <img class="card-image" src="<?php echo esc_url($landingCardImage3['url']); ?>" alt="<?php echo esc_attr($landingCardImage3['alt']); ?>">
             </div>
             <div class="card-rounded-container w-100">
-              <h3 class="container border-bottom border-primary p-2 m-0 text-uppercase text-center text-purple">Castleford</h3>
+              <h3 class="container border-bottom border-primary p-2 pl-4 m-0 text-uppercase text-start text-purple">Castleford</h3>
               <div class="d-flex">
                 <div class="w-100 border-right border-primary px-4">
                   <p class="text-purple"><?php the_field('landing_card_3_description_1'); ?></p>

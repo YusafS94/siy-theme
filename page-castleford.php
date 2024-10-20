@@ -1,22 +1,22 @@
 <?php get_header(); ?>
 
 <main class="main">
-    
+    <div class="booking-title booking-title-castleford">
+        <h1 class="title-medium outline-purple">Castleford</h1>
+        <h2 class="title-small outline-purple">Select and Skate</h2>
+    </div>
     <?php include_partial("booking-header"); ?>
 
     <section id="castleford-glider-section" class="paper-bg p-4">
         <div class="bg-purple text-yellow rounded-pill px-4 container py-2 schedule-title-div">
             <h4 class="text-uppercase m-0">I would like to <strong>schedule</strong>...</h4>
         </div>
-        <div class="my-4">
+        <div class="">
             <?php include_partial("castleford-booking-glider"); ?>
         </div>
     </section>
 
     <?php include_partial("social-cta"); ?>
-
-    
-    
 </main>
 
 

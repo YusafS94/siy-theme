@@ -42,6 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 <form class="needs-validation mx-1" novalidate="" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>" method="POST">
+  <div class="rounded-pill bg-purple border-yellow text-center form-header-outer d-inline-block my-2"><h4 class="text-uppercase font-weight-bold form-header">Send us a message</h4></div>
   <div class="row">
     <div class="col-12 mb-3">
       <label class="text-main font-weight-bold" for="firstName">Name</label>
@@ -68,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
   <div class="row justify-content-end">
     <div class="d-inline-block mr-2">
-      <button class="btn btn-warning py-1 px-4 title-xxs rounded-pill text-purple" value="" type="submit">Send</button>
+      <button class="btn btn-warning title-button px-3 rounded-pill text-purple" value="" type="submit">Send</button>
     </div>
   </div>
 </form>

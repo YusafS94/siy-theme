@@ -1,14 +1,17 @@
 <?php get_header(); ?>
 
 <main class="main">
-
+    <div class="booking-title booking-title-huddersfield">
+        <h1 class="title-medium outline-purple">Huddersfield</h1>
+        <h2 class="title-small outline-purple">Select and Skate</h2>
+    </div>
     <?php include_partial("booking-header"); ?>
 
     <section id="huddersfield-glider-section" class="paper-bg p-4">
         <div class="bg-purple text-yellow rounded-pill px-4 container py-2 schedule-title-div">
             <h4 class="text-uppercase m-0">I would like to <strong>schedule</strong>...</h4>
         </div>
-        <div class="my-4">
+        <div class="">
             <?php include_partial("huddersfield-booking-glider"); ?>
         </div>
     </section>
