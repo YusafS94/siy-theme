@@ -52,6 +52,15 @@ function theme_styles() {
 	// Bootstrap 4.6
 	wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css');
 
+	// Google fonts API
+	wp_enqueue_style('google_fonts', 'https://fonts.googleapis.com');
+
+	// gstatic
+	wp_enqueue_style('gstatic', 'https://fonts.gstatic.com');
+
+	// fonts
+	wp_enqueue_style('fonts', 'https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 	wp_enqueue_style('style_css', get_template_directory_uri() . '/style.css'); // The theme details.
 
 
@@ -71,7 +80,7 @@ function theme_styles() {
 	 */
 	wp_enqueue_style('main_css', get_template_directory_uri() . '/css/main.css');
 	wp_enqueue_style('glide_core', get_template_directory_uri() . '/css/glide.core.css');
-	wp_enqueue_style('glice_theme', get_template_directory_uri() . '/css/glide.theme.css');
+	wp_enqueue_style('glide_theme', get_template_directory_uri() . '/css/glide.theme.css');
 }
 
 // Enqueue JS
@@ -98,17 +107,21 @@ function theme_js() {
 	 * The Bootstrap script above, requires jQuery in order to work, so I've added it to the array,
 	 * and will be automatically added to the frontend via WP magic.
 	 */
-	wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js', ['jquery'], '', false);
+	wp_enqueue_script('main_js', get_template_directory_uri() . '/js/main.js');
+
+	// Glide
+	wp_enqueue_script('glide_min', get_template_directory_uri() . 'node_modules/@glidejs/glide/dist/glide.min.js');
+	wp_enqueue_script('glide_cdn', 'https://cdn.jsdelivr.net/npm/@glidejs/glide');
 	// wp_enqueue_script_module('module_js', get_theme_file_uri('/js/module.js'));
 
 	// Enqueue Swiper JS (delete when carousel is working)
 	// wp_enqueue_script('swiper_js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js', ['jquery'], '', false);
 
-	// Glide core
-	wp_enqueue_script('glide_js-core', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.core.min.css', ['jquery'], '', false);
+	// // Glide core
+	// wp_enqueue_script('glide_js-core', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.core.min.css', ['jquery'], '', false);
 
-	// Glide optional
-	wp_enqueue_script('glide_js-optional', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.theme.min.css', ['jquery'], '', false);
+	// // Glide optional
+	// wp_enqueue_script('glide_js-optional', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.theme.min.css', ['jquery'], '', false);
 }
 
 

@@ -8,69 +8,88 @@ $castlefordCardImage4 = get_field('castleford_card_4_img');
 <div class="glide container">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
-
-        <li class="glide__slide">
+      <li class="glide__slide">
             <!-- Card 1 -->
-             <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($castlefordCardImage1['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage1['alt']); ?>">
-             </div>
-            <div class="">
-                <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple"><?php the_field('castleford_card_1_pricing'); ?></p>
-                    <h4 class="text-purple"><?php the_field('castleford_card_1_title'); ?></h4>
-                    <p class="text-purple"><?php the_field('castleford_card_1_description_1'); ?></p>
-                    <p class="text-purple"><?php the_field('castleford_card_1_description_2'); ?></p>
-                    <a target="_blank" href="<?php the_field('castleford_card_1_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+             <div class="booking-card-outer">
+                <div class="booking-card-img-div border-purple">
+                    <img class="booking-card-img" src="<?php echo esc_url($castlefordCardImage1['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage1['alt']); ?>">
                 </div>
-            </div>
+                <div class="booking-card-lower d-flex flex-column flex-lg-row">
+                    <div class="text-center align-self-center">
+                        <img class="card-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-small.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column align-items-start text-left">
+                        <p class="mt-2 mt-lg-4 text-purple font-weight-bold"><?php the_field('castleford_card_1_pricing'); ?></p>
+                        <h4 class="text-purple booking-card-title"><?php the_field('castleford_card_1_title'); ?></h4>
+                        <p class="text-purple"><?php the_field('castleford_card_1_description_1'); ?></p>
+                        <p class="text-purple"><?php the_field('castleford_card_1_description_2'); ?></p>
+                        <a target="_blank" href="<?php the_field('castleford_card_1_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4 title-button text-purple">Book &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a>
+                    </div>
+                </div>
+             </div>
         </li>
 
         <li class="glide__slide">
             <!-- Card 2 -->
-             <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($castlefordCardImage2['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage2['alt']); ?>">
-             </div>
-            <div class="">
-                <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple"><?php the_field('castleford_card_2_pricing'); ?></p>
-                    <h4 class="text-purple"><?php the_field('castleford_card_2_title'); ?></h4>
-                    <p class="text-purple"><?php the_field('castleford_card_2_description_1'); ?></p>
-                    <p class="text-purple"><?php the_field('castleford_card_2_description_2'); ?></p>
-                    <a target="_blank" href="<?php the_field('castleford_card_2_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+             <div class="booking-card-outer">
+                <div class="booking-card-img-div border-purple">
+                    <img class="booking-card-img" src="<?php echo esc_url($castlefordCardImage2['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage2['alt']); ?>">
                 </div>
-            </div>
+                <div class="booking-card-lower d-flex flex-column flex-lg-row">
+                    <div class="text-center align-self-center">
+                        <img class="card-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-small.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column align-items-start text-left">
+                        <p class="mt-2 mt-lg-4 text-purple font-weight-bold"><?php the_field('castleford_card_2_pricing'); ?></p>
+                        <h4 class="text-purple booking-card-title"><?php the_field('castleford_card_2_title'); ?></h4>
+                        <p class="text-purple"><?php the_field('castleford_card_2_description_1'); ?></p>
+                        <p class="text-purple"><?php the_field('castleford_card_2_description_2'); ?></p>
+                        <a target="_blank" href="<?php the_field('castleford_card_2_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4 title-button text-purple">Book &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a>
+                    </div>
+                </div>
+             </div>
         </li>
 
         <li class="glide__slide">
             <!-- Card 3 -->
-             <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($castlefordCardImage3['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage3['alt']); ?>">
-             </div>
-            <div class="">
-                <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple"><?php the_field('castleford_card_3_pricing'); ?></p>
-                    <h4 class="text-purple"><?php the_field('castleford_card_3_title'); ?></h4>
-                    <p class="text-purple"><?php the_field('castleford_card_3_description_1'); ?></p>
-                    <p class="text-purple"><?php the_field('castleford_card_3_description_2'); ?></p>
-                    <a target="_blank" href="<?php the_field('castleford_card_3_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+             <div class="booking-card-outer">
+                <div class="booking-card-img-div border-purple">
+                    <img class="booking-card-img" src="<?php echo esc_url($castlefordCardImage3['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage3['alt']); ?>">
                 </div>
-            </div>
+                <div class="booking-card-lower d-flex flex-column flex-lg-row">
+                    <div class="text-center align-self-center">
+                        <img class="card-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-small.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column align-items-start text-left">
+                        <p class="mt-2 mt-lg-4 text-purple font-weight-bold"><?php the_field('castleford_card_3_pricing'); ?></p>
+                        <h4 class="text-purple booking-card-title"><?php the_field('castleford_card_3_title'); ?></h4>
+                        <p class="text-purple"><?php the_field('castleford_card_3_description_1'); ?></p>
+                        <p class="text-purple"><?php the_field('castleford_card_3_description_2'); ?></p>
+                        <a target="_blank" href="<?php the_field('castleford_card_3_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4 title-button text-purple">Book &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a>
+                    </div>
+                </div>
+             </div>
         </li>
 
         <li class="glide__slide">
             <!-- Card 4 -->
-             <div class="card-div">
-                <img class="about-img border-purple card-image" src="<?php echo esc_url($castlefordCardImage4['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage4['alt']); ?>">
-             </div>
-            <div class="">
-                <div class="d-flex flex-column align-items-center text-center">
-                    <p class="text-purple"><?php the_field('castleford_card_4_pricing'); ?></p>
-                    <h4 class="text-purple"><?php the_field('castleford_card_4_title'); ?></h4>
-                    <p class="text-purple"><?php the_field('castleford_card_4_description_1'); ?></p>
-                    <p class="text-purple"><?php the_field('castleford_card_4_description_2'); ?></p>
-                    <a target="_blank" href="<?php the_field('castleford_card_4_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4">Book</a>
+             <div class="booking-card-outer">
+                <div class="booking-card-img-div border-purple">
+                    <img class="booking-card-img" src="<?php echo esc_url($castlefordCardImage4['url']); ?>" alt="<?php echo esc_attr($castlefordCardImage4['alt']); ?>">
                 </div>
-            </div>
+                <div class="booking-card-lower d-flex flex-column flex-lg-row">
+                    <div class="text-center align-self-center">
+                        <img class="card-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-small.svg" alt="">
+                    </div>
+                    <div class="d-flex flex-column align-items-start text-left">
+                        <p class="mt-2 mt-lg-4 text-purple font-weight-bold"><?php the_field('castleford_card_4_pricing'); ?></p>
+                        <h4 class="text-purple booking-card-title"><?php the_field('castleford_card_4_title'); ?></h4>
+                        <p class="text-purple"><?php the_field('castleford_card_4_description_1'); ?></p>
+                        <p class="text-purple"><?php the_field('castleford_card_4_description_2'); ?></p>
+                        <a target="_blank" href="<?php the_field('castleford_card_4_url'); ?>" class="btn btn-warning rounded-pill py-2 px-4 title-button text-purple">Book &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a>
+                    </div>
+                </div>
+             </div>
         </li>
       </ul>
     </div>

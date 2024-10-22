@@ -51,13 +51,12 @@ $landingAboutImg = get_field('home_page_about_img');
     </div>
   </section>
 
-
-
-  <section id="locations" class="container">
+  <div class="container bg-purple border-yellow rounded-pill py-2 px-4 my-3 review-div">
+      <h2 class="text-uppercase font-weight-bold">Pick a location:</h2>
+    </div>
+  <section id="locations" class="opac py-2">
       <div class="ml-25 carousel-container my-4 overflow-hidden">
-        <div class="rounded-pill border-yellow bg-purple py-2 px-4 mb-3">
-          <h2 class="">Pick a location:</h2>
-        </div>
+        
         <?php include_partial("landing-glider"); ?>
       </div>
   </section>
