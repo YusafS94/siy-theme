@@ -5,13 +5,13 @@
     </div>
     <div class="col-12 col-lg-4 p-0 footer-center order-1 order-lg-2">
       <div><h3 class="title-underlines p-2 text-center">Days of skate</h3></div>
-      <div class="d-flex flex-row justify-content-center align-items-center"><p class=""><?php echo get_field('days_of_skate'); ?></p></div>
+      <div class="d-flex flex-row justify-content-center align-items-center"><p class="footer-text"><?php echo get_field('days_of_skate'); ?></p></div>
     </div>
     <div class="col-12 col-lg-4 p-0 order-3">
       <div><h3 class="title-underlines py-2 text-center">Contact</h3></div>
-      <div class="d-flex flex-column align-items-center">
-        <p><?php echo get_field('contact_email'); ?></p>
-        <p><?php echo get_field('contact_phone'); ?></p>
+      <div class="d-flex flex-column align-items-end">
+        <p class="footer-text"><?php echo get_field('contact_email'); ?></p>
+        <p class="footer-text"><?php echo get_field('contact_phone'); ?></p>
       </div>
     </div>
   </div>

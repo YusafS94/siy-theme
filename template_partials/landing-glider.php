@@ -11,7 +11,7 @@ $landingCardImage3 = get_field('landing_card_3_img');
             <!-- Card 1 -->
           <div class="custom-card-test bg-yellow">
             <div class="card-div w-100 border border-dark">
-            <img class="card-image" src="<?php echo esc_url($landingCardImage3['url']); ?>" alt="<?php echo esc_attr($landingCardImage3['alt']); ?>">
+            <img class="card-image" src="<?php echo esc_url($landingCardImage1['url']); ?>" alt="<?php echo esc_attr($landingCardImage1['alt']); ?>">
             </div>
             <div class="card-rounded-container w-100">
               <h3 class="container border-bottom-purple p-2 pl-4 m-0 text-uppercase text-start text-purple">Halifax</h3>
@@ -26,14 +26,14 @@ $landingCardImage3 = get_field('landing_card_3_img');
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-2"><a href="/halifax" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a></div>
+          <div class="d-flex justify-content-center mt-2"><a href="/halifax" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page &nbsp; <i class="fa fa-arrow-right arrow-rotate ml-5"></i></a></div>
         </li>
 
         <li class="glide__slide">
             <!-- Card 2 -->
           <div class="custom-card-test bg-yellow">
             <div class="card-div w-100 border border-dark">
-            <img class="card-image" src="<?php echo esc_url($landingCardImage3['url']); ?>" alt="<?php echo esc_attr($landingCardImage3['alt']); ?>">
+            <img class="card-image" src="<?php echo esc_url($landingCardImage2['url']); ?>" alt="<?php echo esc_attr($landingCardImage2['alt']); ?>">
             </div>
             <div class="card-rounded-container w-100">
               <h3 class="container border-bottom-purple p-2 pl-4 m-0 text-uppercase text-start text-purple">Huddersfield</h3>
@@ -42,13 +42,13 @@ $landingCardImage3 = get_field('landing_card_3_img');
                   <img class="card-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-small.svg" alt="">
                 </div>
                 <div class="w-100 p-4 pt-md-2 pb-md-5 border-right-purple">
-                  <p class="text-purple"><?php the_field('landing_card_1_description_1'); ?></p>
-                  <p class="text-purple"><?php the_field('landing_card_1_description_2'); ?></p>
+                  <p class="text-purple"><?php the_field('landing_card_2_description_1'); ?></p>
+                  <p class="text-purple"><?php the_field('landing_card_2_description_2'); ?></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-2"><a href="/huddersfield" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a></div>
+          <div class="d-flex justify-content-center mt-2"><a href="/huddersfield" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page &nbsp; <i class="fa fa-arrow-right arrow-rotate ml-5"></i></a></div>
         </li>
 
         <li class="glide__slide">
@@ -64,14 +64,13 @@ $landingCardImage3 = get_field('landing_card_3_img');
                   <img class="card-star" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/STAR-small.svg" alt="">
                 </div>
                 <div class="w-100 p-4 pt-md-2 pb-md-5 border-right-purple">
-                  <p class="text-purple"><?php the_field('landing_card_1_description_1'); ?></p>
-                  <p class="text-purple"><?php the_field('landing_card_1_description_2'); ?></p>
+                  <p class="text-purple"><?php the_field('landing_card_3_description_1'); ?></p>
+                  <p class="text-purple"><?php the_field('landing_card_3_description_2'); ?></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center mt-2"><a href="/castleford" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page &nbsp; <i class="fa fa-arrow-right arrow-rotate"></i></a></div>
-        </li>
+          <div class="d-flex justify-content-center mt-2"><a href="/castleford" class="btn btn-light bg-yellow border-purple rounded-pill py-2 px-4 text-purple title-nav">View Page &nbsp; <i class="fa fa-arrow-right arrow-rotate ml-5"></i></a></div>
         
       </ul>
     </div>

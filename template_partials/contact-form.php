@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       </div>
     </div>
     <div class="col-12 mb-3">
-      <label class="text-main font-weight-bold" for="lastName">Email (required)</label>
+      <label class="text-main font-weight-bold" for="lastName">Email <span class="text-light-yellow">(required)</span></label>
       <input type="email" class="form-control bg-transparent text-light" id="email" name="email" placeholder="Your email" value="<?php echo $email;?>" required="">
       <span><?php echo $emailErrMsg;?></span>
       <div class="invalid-feedback">
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
   <div class="row">
     <div class="col-md-12 mb-3">
-      <label class="text-main font-weight-bold" for="message">Message (required)</label>
+      <label class="text-main font-weight-bold" for="message">Message <span class="text-light-yellow">(required)</span></label>
       <textarea class="form-control bg-transparent text-light" id="message" name="message"></textarea>
     </div>
   </div>

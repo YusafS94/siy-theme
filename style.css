@@ -44,6 +44,9 @@ html {
 	color: var(--main-warning)!important;
 	background: #000;
 }
+.text-light-yellow {
+	color: var(--light-yellow)
+}
 .stroke-main {
 	/* -webkit-text-stroke: 1px var(--main-purple); */
 	-webkit-text-stroke: 1px var(--main-yellow);
@@ -126,6 +129,18 @@ html {
 }
 .arrow-rotate {
 	transform: rotate(-45deg);
+}
+.footer-icon-img {
+	width: 30px;
+}
+.footer-title {
+	text-transform: uppercase;
+}
+.mail-btn-text {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--main__purple);
 }
 /* === */
 
@@ -454,6 +469,12 @@ h6 {
 	max-width: 100%;
 }
 
+.booking-header-title {
+	/* font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal; */
+}
+
 .booking-card-outer {
 	height: 550px;
 }
@@ -502,7 +523,10 @@ h6 {
 	/* display: inline-block; */
 }
 .contact-area-img {
-	padding: 2rem;
+	/* padding: 2rem; */
+}
+.contact-info-doodle-img {
+	opacity: 25%;
 }
 .contact-links {
 	color: var(--main__purple);
@@ -523,6 +547,7 @@ h6 {
 	border: none;
 	border-bottom: 1px solid var(--light-yellow);
 	border-radius: 0;
+	padding-left: 0;
 }
 .form-control:focus {
 	border: none;
@@ -536,6 +561,32 @@ h6 {
 .form-control:focus::placeholder {
 	color: transparent;
 } 
+.contact-mid {
+	/* height: 100%; */
+}
+.contact-info-outer {
+	/* height: 230px; */
+}
+.contact-info-text {
+	color: var(--main__purple);
+	font-size: 20px;
+}
+.contact-info-icon-outer {
+	width: 30px;
+}
+.contact-info-icon-img {
+	width: 100%;
+}
+.contact-info-text {
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+}
+.contact-info-line {
+	padding: 0;
+	margin: 0;
+}
+
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
@@ -657,7 +708,18 @@ h6 {
 
 	.footer-center {
 		border-left: 1px solid var(--main-yellow);
-		border-right: 1px solid var(--main-yellow);
+		/* border-right: 1px solid var(--main-yellow); */
+	}
+	.footer-middle-border {
+		/* border-right: 1px solid var(--main-yellow); */
+	}
+	.footer-title {
+		font-size: 32px;
+	}
+	.footer-text {
+		/* color: var(--main__purple); */
+		font-size: 20px;
+		font-weight: 600;
 	}
 	#custom-left-arrow {
 		top: 50%;
@@ -707,6 +769,9 @@ h6 {
 	}
 	.form-img-container {
 		height: auto;
+	}
+	.contact-info-outer {
+		height: 300px;
 	}
 }
 
